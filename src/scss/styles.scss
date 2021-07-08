@@ -1,0 +1,42 @@
+//import utils 
+@import 'src\scss\utils\_reset.scss';
+
+//import color 
+@import "src\scss\color\_color.scss";
+
+//import mixin 
+@import "src\scss\mixins\_mixins.scss";
+
+// import Main/mobile
+@import 'src\scss\footer\_mobile.scss';
+@import 'src\scss\header\_mobile.scss';
+@import 'src\scss\main\about\_mobile.scss';
+@import "src\scss\main\disco\_mobile.scss";
+@import "src\scss\main\gallery\_mobile.scss";
+@import "src\scss\main\home\_mobile.scss";
+@import "src\scss\main\tour\_mobile.scss";
+
+
+// import Main/tablet 
+@media (min-width:1025px){
+@import 'src\scss\footer\_tablet.scss';
+@import 'src\scss\header\_tablet.scss';
+@import 'src\scss\main\about\_tablet.scss';
+@import "src\scss\main\disco\_tablet.scss";
+@import "src\scss\main\gallery\_tablet.scss";
+@import "src\scss\main\home\_tablet.scss";
+@import "src\scss\main\tour\_tablet.scss";
+}
+
+// importe Main/desktop
+@media (min-width:1025px){
+@import 'src\scss\footer\_desktop.scss';
+@import 'src\scss\header\_desktop.scss';
+@import 'src\scss\main\about\_desktop.scss';
+@import "src\scss\main\disco\_desktop.scss";
+@import "src\scss\main\gallery\_desktop.scss";
+@import "src\scss\main\home\_desktop.scss";
+@import "src\scss\main\tour\_desktop.scss";
+}
+
+
