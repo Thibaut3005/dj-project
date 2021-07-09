@@ -84,10 +84,11 @@ $bold : 800;
 
   // body poperties 
 
-  body {
+ *{
       font-family: $font;
       padding : 0 ; 
       margin : 0 ; 
+      box-sizing: content-box;
   }
 
   //display none 
