@@ -1,0 +1,97 @@
+// font properties
+$font: 'Poppins', sans-serif;
+$maj : uppercase; 
+$small : 0.5rem; 
+$medium : 0.8rem;
+$big : 2.2rem;
+$bold : 800; 
+
+
+// title (h2) 
+
+@mixin title {
+    font-size : $big; 
+    color : black ; 
+    font-weight: $bold ; 
+}
+
+
+// icon rs 
+@mixin social-footer {
+    @include reset ;
+    list-style-type:none;
+    display : flex ; 
+    justify-content: space-between;
+    
+
+    li {
+        @include flex;
+        border-radius : 50%;
+        width: 4rem;
+        height: 4rem;
+        text-align: center;
+        background-color: $grey ;
+        font-size : $big;
+        a {
+            color : white; 
+        }
+    }
+}
+
+// Logo 
+
+@mixin logo-footer {
+    @include reset ;
+    @include flex;
+    img {
+         width : 20rem;
+    }
+   
+   
+    
+    
+    
+}
+
+//boutton 
+@mixin button {
+
+    box-sizing: content-box;
+    padding: 1rem;
+    background-color : $purple; 
+    color : white;
+    display: block;
+    width : auto; 
+    text-align: center;
+    font-family: $font;
+    text-decoration : none;
+    text-transform: $maj;
+    font-size : $medium; 
+
+
+  }
+
+
+  //flex 
+
+  @mixin flex {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+  // body poperties 
+
+  body {
+      font-family: $font;
+      padding : 0 ; 
+      margin : 0 ; 
+  }
+
+  //display none 
+
+  @mixin display {
+      display : none ; 
+  }
