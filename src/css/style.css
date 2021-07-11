@@ -13,19 +13,14 @@
   display: none;
 }
 
-img {
-  width: 100vw;
-}
-
 .header {
-  background-color: #444444;
   max-width: 480px;
   width: 100vw;
 }
 
 .main-nav--mobile {
   display: flex;
-  background-color: #444444;
+  background-color: #282828;
   flex-direction: row;
   font-size: 0.5rem;
   justify-content: start;
@@ -179,6 +174,82 @@ img {
 .quotation {
   padding: 0 0 0 0;
   display: block;
+}
+
+.galery--container img {
+  width: 100vw;
+}
+
+#fanbase {
+  background-color: #282828;
+  color: white;
+}
+#fanbase p {
+  color: #444444;
+}
+#fanbase .fanbase__galery {
+  margin-left: 5vw;
+}
+#fanbase .fanbase__galery .fanbase--galery__img-1 {
+  margin-left: 3vw;
+  width: 78vw;
+}
+#fanbase .fanbase__galery .fanbase--galery__img-2 {
+  margin-left: 20vw;
+  width: 59vw;
+}
+#fanbase .fanbase__galery .fanbase--galery__img-3 {
+  margin-left: 25vw;
+  padding-bottom: 6vh;
+  padding-top: 9vh;
+  width: 50vw;
+}
+#fanbase .fanbase__galery .fanbase--galery__img-4 {
+  margin-left: 18vw;
+  width: 69vw;
+}
+#fanbase .fanbase__galery .fanbase--galery__img-5 {
+  width: 89vw;
+}
+#fanbase .fanbase__galery .fanbase--galery_block-first {
+  z-index: 0;
+  height: 0;
+}
+#fanbase .fanbase__galery .fanbase--galery_block-first img {
+  object-fit: none;
+  object-position: 0 -39vw;
+  transform: rotate(180deg) translate(-1vw, 36vw) scaleX(-1);
+  z-index: 1;
+  position: relative;
+  margin-left: 3vw;
+  width: 78vw;
+}
+#fanbase .fanbase__galery .fanbase--galery_block {
+  overflow: hidden;
+  height: 5vw;
+  margin-left: 12vw;
+}
+#fanbase .fanbase__galery .fanbase--galery_block .fanbase--galery__img--modified {
+  width: 50vw;
+  height: auto;
+  z-index: 0;
+}
+#fanbase .fanbase__galery .fanbase--galery_block--different {
+  overflow: hidden;
+  height: 10vw;
+  margin-left: 10vw;
+}
+#fanbase .fanbase__galery .fanbase--galery_block--different img {
+  width: 59vw;
+}
+#fanbase .fanbase__galery .fanbase--galery__img--modified {
+  width: 50vw;
+  height: auto;
+  position: relative;
+  z-index: 2;
+}
+#fanbase .fanbase__galery img {
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
