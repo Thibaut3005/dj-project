@@ -1,0 +1,230 @@
+
+
+
+// font properties
+$font: 'Poppins', sans-serif;
+$maj : uppercase; 
+$small : 1.2rem; 
+$medium : 1.4rem;
+$big : 2rem;
+$bold : 800; 
+$purple : #8121e0;
+$darkgrey: #282828;
+$grey : #444444;
+$white: white;
+
+ 
+$breakpoints: (
+    mobile: 320px,
+    tablet: 768px
+    );
+
+@mixin mobile-only {
+    @media screen and (max-width: map-get($breakpoints,mobile)) {
+        @content;
+    }
+}
+
+@mixin tablet-only {
+    @media screen and (max-width: map-get($breakpoints,tablet)) {
+        @content;
+    }
+}
+
+@mixin desktop-only {
+    @media screen and (min-width: map-get($breakpoints,tablet)) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    max-width: map-get($breakpoints,mobile)
+}
+
+@mixin tablet {
+    max-width: map-get($breakpoints,tablet)
+}
+
+@mixin desktop {
+    min-width: map-get($breakpoints,tablet)
+}
+
+
+
+
+// title (h2) 
+
+@mixin title {
+    font-size : $big; 
+    color : $darkgrey; 
+    font-weight: $bold ; 
+    text-align: center;
+    letter-spacing: 0.1rem;
+    padding:2rem;
+    font-family: $font;
+}
+
+h2 {
+    font-size : $big; 
+    color : $darkgrey; 
+    font-weight: $bold ; 
+    font-family: $font;
+}
+
+@mixin subtitle {
+    font-size : $big; 
+    color : $darkgrey; 
+    font-weight: 500; 
+    font-family: $font;
+}
+
+h3 {
+    font-size : $big; 
+    color : $darkgrey; 
+    font-weight: 500 ; 
+    font-family: $font;
+}
+
+h4 {
+    font-size : $medium; 
+    color : $grey; 
+    font-weight: 300 ; 
+    font-family: $font;
+}
+
+h5 {
+    font-size : $small; 
+    color : $grey; 
+    font-weight: 300 ; 
+    font-family: $font;
+}
+
+
+// icon rs 
+@mixin social-footer {
+    @include reset ;
+    list-style-type:none;
+    display : flex ; 
+    justify-content: space-between;
+    
+
+    li {
+        @include flex;
+        border-radius : 50%;
+        width: 4rem;
+        height: 4rem;
+        text-align: center;
+        background-color: $grey ;
+        font-size : $big;
+        a {
+            color : $white; 
+        }
+    }
+}
+
+// Logo 
+
+@mixin logo-footer {
+    @include reset ;
+    @include flex;
+    img {
+         width : 20rem;
+    }    
+    
+}
+
+//boutton 
+@mixin button {
+
+    padding: 1rem;
+    background-color : $purple; 
+    color : $white;
+    display: block;
+    text-align: center;
+    font-family: $font;
+    text-decoration : none;
+    text-transform: $maj;
+    font-size : $medium; 
+    border-radius: 5px;
+
+
+  }
+
+
+  //flex 
+
+  @mixin flex {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  //display none 
+
+  @mixin display {
+    display : none ; 
+}
+
+
+
+  // body poperties 
+
+
+  body{
+            width: 100%;
+            font-family: $font;
+            box-sizing: content-box; 
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    background-color: $darkgrey;
+    height: 4.5rem;
+    width: 100%;
+  }
+
+  a {
+    text-decoration: none;
+    color: $white;
+    opacity:1;
+    font-family: $font;
+    font-weight: 900; 
+    font-size: $medium;
+    transition: 00ms;
+    line-height: 2rem;
+  }
+
+  a:hover {
+    opacity:0.5;
+  }
+
+  ol,ul,li {
+    padding: 0;
+    list-style-type: none;
+  }
+
+  input {
+    display: none;
+  }
+  
+
+
+p{
+  color: $grey;
+  font-family: $font;
+  font-weight: 300;
+  line-height: 2rem;
+  padding-right: 0.5rem;
+  padding-left: 1.5rem;
+  padding-bottom: 0.5rem;
+  font-size: $small;
+  text-align: justify;  
+}
+
+img {
+    box-sizing: content-box; 
+    width:95%;
+    margin:auto;
+}
