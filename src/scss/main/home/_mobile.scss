@@ -285,3 +285,303 @@
     padding: 1rem 3rem;
     cursor: pointer;
 }
+// first block content 
+
+#Single {
+    background-image: url("../../../your-resources/homapage-banner-img.jpg");
+    background-repeat: no-repeat;
+    background-position: -5vw 0vw;
+    background-size: 161vw 51vh;
+    height : 46vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color : white;
+    .stack__first-block {
+        margin : 0 0 0 1rem ; 
+        .Subtitle {
+            font-size: 7vw;
+        }
+        .title {
+            color: white;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-fill-color: transparent;
+            font-size: 10vw;
+            
+        }
+        .playbar{
+            display : flex;
+            align-items: center;
+            width: 92vw;
+            margin: 9px 0 -24px 0;
+            justify-content: space-between;
+
+            .playbar__bar {
+                width: 52vw;
+                background-color: white;
+                opacity: 0.4;
+                height: 4px;
+
+            }
+        }
+    }
+
+
+}
+
+
+//rectangle of second block 
+
+.stack__second-block__rectangle {
+                width : 95vw;
+                height: 43vh;
+                background-color: rgb(42, 41, 41) ;
+                color : white; 
+                margin : auto; 
+                border-radius: 10px;
+                position: relative;
+                top : -30px;
+                display :flex;
+                justify-content: space-around;
+                flex-direction: column;
+                align-items: center;
+                padding-bottom: 3vh;
+                margin-bottom: 10vh;
+               
+                .stack__second-block__title{
+                    text-align: center;
+                    .stack__second-block__subtitle{
+                        margin-bottom:1rem;
+                        font-weight : 700;
+                        font-size: 8vw ;
+                    }
+                    .stack__second-block__description{
+                        font-size: 4.5vw;
+                        margin: 0 3vw 0 5vw;
+                    }
+
+                }
+                .stack__second-block__block{
+                   
+                    justify-content: space-around;
+                    display:flex;
+                    width: 77vw;
+                    text-align:center;
+                    .stack__second-block__item{
+                        .stack__second-block__subtitle{
+                            font-size:11vw;
+                            font-weight : 500;
+                        }
+                        .stack__second-block__description{
+                            font-weight: 200;
+                            font-size:2vw;
+                            text-transform: uppercase;
+                            font-size: 2vw;
+                        }
+                    }
+                }
+
+                .boutton {
+                    @include button ;
+                    width: 61vw;
+                    border-radius: 6px;
+                    font-weight: 600;
+                    
+                }
+
+
+
+}
+
+//about part 
+
+.stack__second-block__image{
+    overflow: hidden;
+    border-radius: 11px;
+    width: 95vw;
+    margin: auto;
+    img{
+        width:95vw;
+    }
+}
+.stack__second-block__title {
+    text-transform: capitalize;
+    padding: 0 0 0 3vw;
+    margin-top: 6vh;
+}
+.stack__second-block__comment{
+    padding: 0 0 0 3vw;
+    width: 95vw;
+    color: $grey;
+    font-size: 4vw;
+    
+        .quotation{
+            quotes: none;
+            position: relative;
+            margin: 0 15vh 0 9vh;
+            font-size: 5vw;
+            .quotation--mark{
+                color: $purple;
+                position: absolute;
+                font-size: 10vw;
+                top: -2vw;
+                left: -4vw;
+                transform: rotate(28deg);
+            }
+           /* z-index: 1;
+            line-height: 4.5vh;
+            font-size: 6vw;*/
+          /* &::before {
+            content: " '' ";
+            color: purple;
+            position: relative;
+            font-size: 10vh;
+            top: 6vh;
+            left: 6vw;
+            z-index: 0;
+            opacity: 0.5;
+           }*/
+        }
+        
+    
+}
+.quotation {
+    padding: 0 0 0 0;
+    display: block;
+}
+
+
+
+
+.galery--container {
+    img {
+        width:100vw;
+    }
+}
+
+//fanbase
+#fanbase {
+    
+    background-color: $darkgrey;
+    color : white;
+    
+
+
+
+
+    p {
+        color : $grey;
+    }
+    .fanbase__galery{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+   
+        div{
+            .fanbase--galery__img--modified{
+            display: flex;
+            justify-content: center;
+            width:61vw;
+            }
+           
+            
+           
+    
+        }
+        .fanbase-galery_item-3{
+            overflow: hidden;
+            height: 11vw;
+            transform: rotate( 180deg );
+            img {
+            z-index: 1;
+            position: relative;
+            width : 78vw;
+            transform: rotate( 180deg );
+            
+            }
+                           
+        
+        }
+        .fanbase-galery_item-7{
+            overflow: hidden;
+            height: 3vh;
+            margin: 0 0 1vw -17vw;
+ 
+        } 
+        .fanbase-galery_item-4{
+            margin-left: -29vw;
+            img {
+                z-index: 2;
+                position: relative;
+                margin-top: -2vh;
+                width: 61vw;
+            }
+        
+        }
+        .fanbase-galery_item-5{
+            overflow: hidden;
+            height: 3vh;
+        
+        }
+        .fanbase-galery_item-2{
+            height: 35.5vh;
+        }
+
+        .fanbase-galery_item-9{
+            margin-left: 12vw;
+
+            img{
+                width: 73vw;
+               
+            }
+        }
+
+        
+    }
+        .fanbase__header {
+            margin: 0 10vw 0 3vw;
+        }
+        .fanbase__body {
+                        text-align : center;
+                        margin: 0 10vw 0 7vw;
+                        margin-bottom: 4vh;
+                        padding-bottom: 6vh;
+                        .fanbase-list {
+                            list-style-type:none ;
+                        }
+                }
+        
+        .fanbase--galery__img-1{
+           
+            width: 78vw;
+        }
+        .fanbase--galery__img-2{
+            
+            width: 59vw;
+        }
+        .fanbase--galery__img-3{
+            
+            padding-bottom: 6vh;
+            padding-top : 9vh;
+            width: 50vw;
+        }
+        .fanbase--galery__img-4{
+            
+            width: 69vw;
+        }
+        .fanbase--galery__img-5{
+            width: 89vw;
+        }
+
+
+        
+        
+        img{
+            border-radius: 10px;
+            
+    }
+
+
+    
+}

@@ -16,7 +16,7 @@
                                             
     <title>Home page</title>
 </head>
-<body><!--
+<body>
     <header class="header" id="header">
         <nav class="main-nav" aria-label="Main" >
             <div class="main-nav__logo">
@@ -43,19 +43,26 @@
 
         </nav>
         <nav class="main-nav--mobile">
-            <div class="main-nav__hamburger">
-                <i class="fas fa-bars"></i>
+            <div class="main-nav_container--mobile">
+            <div class="main-nav__hamburger--mobile">
+                <input type="checkbox" /> 
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul class="main-nav__list--mobile">
+                    <li class="main-nav__item--mobile" ><a class="main-nav__link relative-link relative-link__about-us" href="About-us.html" > About us</a></li>
+                    <li class="main-nav__item--mobile"><a href="Discopraphy.html" class="main-nav__link"> Discopraphy</a></li>
+                    <li class="main-nav__item--mobile"><a href="Tour-schedule.html" class="main-nav__link"> Tours</a></li>
+                    <li class="main-nav__item--mobile"><a href="gallery.html" class="main-nav__link"> Photos</a></li>
+                </ul>
             </div>
-            <div class="main-nav__logo--mobile">
-               <img src="your-resources/logo.png" alt="logo of dj angerone" class="brand-name--icon brand-name--name">  
+                <div class="main-nav__logo">
+                    <img src="your-resources/logo.png" alt="logo of dj angerone" class="brand-name--icon brand-name--name"> 
+                 </div>
+               
+            
             </div>
 
-            <ul class="main-nav__list--mobile">
-                <li class="main-nav__item--mobile" ><a class="main-nav__link relative-link relative-link__about-us" href="About-us.html" > About us</a></li>
-                <li class="main-nav__item--mobile"><a href="Discopraphy.html" class="main-nav__link"> Discopraphy</a></li>
-                <li class="main-nav__item--mobile"><a href="Tour-schedule.html" class="main-nav__link"> Tours</a></li>
-                <li class="main-nav__item--mobile"><a href="gallery.html" class="main-nav__link"> Photos</a></li>
-            </ul>
            <div class="parameters">
                <i class="fas fa-ellipsis-v"></i>
             </div>
@@ -71,20 +78,21 @@
                 <h3 class="Subtitle" >New Single</h3>
                 <h2 class="title">Feel the Rhythm </h2>
             <div class="playbar">
-                <div class="playbar__button"></div>
-                <div class="playbar__bar"></div>
-                <div class="playbar__time"></div>
+                <div class="playbar__button"><i class="fas fa-play"></i></div>
+                <div class="playbar__bar">  </div>
+                <div class="playbar__time">00:00-04:27</div>
             </div>
         </div>
         </section>
         <section id="nextgig">
             <div class="stack__second-block">
                 <div class="stack__second-block__rectangle">
-                <div class="stack__second-block__block">
-                    <div class="stack__second-block__item">
+                    <div class="stack__second-block__title">
                         <h3 class="stack__second-block__subtitle">Next Gig</h3>
                        <p class="stack__second-block__description">Tickets for my next event are already avaible</p> 
                     </div>
+                <div class="stack__second-block__block">
+                    
                     <div class="stack__second-block__item">
                         <h3 class="stack__second-block__subtitle">41</h3>
                        <p class="stack__second-block__description">days</p> 
@@ -94,14 +102,15 @@
                        <p class="stack__second-block__description">hours</p> 
                     </div>
                     <div class="stack__second-block__item">
-                        <h3 class="stack__second-block__subtitle">59</h3>
+                        <h3 class="stack__second-block__subtitle">58</h3>
                        <p class="stack__second-block__description">Minutes</p> 
                     </div>
-                </div>
-                    <div class="stack__second-block__item">
+                
+                    <div class="stack__second-block__item hidden ">
                         <h3 class="stack__second-block__subtitle">26</h3>
                        <p class="stack__second-block__description">seconds</p> 
                     </div>
+                </div>
                      <a class="boutton" href="#">buy tickets</a>
                 </div>
               
@@ -113,9 +122,8 @@
                 </div>
             <h2 class="stack__second-block__title">about DJ Angerone</h2>
             <p class="stack__second-block__comment" >Mike Myers, professionally known as DJ Angerone, is internationally acclaimed progressive house & Trance DJ & musician.
-                <q class="quotation"> I try to experiment with various music genre in every track that i make </q> Since the begining of his career in 2010, he has already released 5 EPs on a range of worlwide known labels (Booster Records, DSTRCT Recording etc.) and received a number of music awards.</p>
-        </div>
-    </section>-->
+                <q class="quotation"> <span class="quotation--mark">"</span>I try to experiment with various music genre in every track that i make </q> Since the begining of his career in 2010, he has already released 5 EPs on a range of worlwide known labels (Booster Records, DSTRCT Recording etc.) and received a number of music awards.</p>
+    </section>
     <section id="listen">
         <div class="stack__third-block">
             <h2 class="stack__third-block__title">Listen to the Latest Releases by DJ Angerone</h2>
@@ -156,15 +164,20 @@
 
 
     </section>
-     <!--   <section id="fanbase">
+        <section id="fanbase">
 
             <div class="fanbase__galery">
-             <img src="your-resources/fanbase-1.jpg" alt="" class="fanbase--galery__img">
-             <img src="your-resources/fanbase-2.jpg" alt="" class="fanbase--galery__img">
-             <img src="your-resources/fanbase-3.jpg" alt="" class="fanbase--galery__img">
-             <img src="your-resources/fanbase-4.jpg" alt="" class="fanbase--galery__img">
-             <img src="your-resources/fanbase-5.jpg" alt="" class="fanbase--galery__img">
-             <img src="your-resources/fanbase-6.jpg" alt="" class="fanbase--galery__img">
+                <div><img src="your-resources/fanbase-1.jpg" alt="dj table" class="fanbase--galery__img-3"></div>
+                <div class="fanbase-galery_item-2"><img src="your-resources/fanbase-2.jpg" alt="dj mixing table" class="fanbase--galery__img-1"></div>
+                <div class="fanbase-galery_item-5" > <img src="your-resources/about-us-dj-img.jpg" alt="dj picture" class="fanbase--galery__img--modified"></div>
+                <div class="fanbase-galery_item-3"><img src="your-resources/fanbase-2.jpg" alt="dj mixing table" class="fanbase--galery__img">  </div>
+                <div class="fanbase-galery_item-4" ><img src="your-resources/about-us-dj-img.jpg" alt="dj picture" class="fanbase--galery__img--modified"></div>
+                <div><img src="your-resources/fanbase-3.jpg" alt="man having fun" class="fanbase--galery__img-5"></div>
+                <div class ="fanbase-galery_item-7"><img src="your-resources/fanbase-5.jpg" alt="party description" class="fanbase--galery__img"></div>
+                <div> <img src="your-resources/fanbase-5.jpg" alt="party description" class="fanbase--galery__img-2"></div>
+                <div class ="fanbase-galery_item-9"><img src="your-resources/fanbase-6.jpg" alt="men looking at you" class="fanbase--galery__img-4"></div>
+
+             
             </div>
          
             <div class="fanbase__header">
@@ -360,7 +373,7 @@
                     <a type="button" class="tickets-card__button" >BUY NOW</a>
                      
          
-                 </div>-->
+                 </div> 
          </section>
          
          
