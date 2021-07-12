@@ -1,0 +1,22 @@
+
+
+
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30vw , 1fr));
+    gap: 1rem;
+    align-self: center;
+    justify-self: center;
+
+ 
+ }
+ 
+ .gallery--box{
+     width: 30vw;
+    
+    
+ }
+ .gallery__img{
+     width: 30vw;
+ }
+    
