@@ -43,19 +43,26 @@
 
         </nav>
         <nav class="main-nav--mobile">
-            <div class="main-nav__hamburger">
-                <i class="fas fa-bars"></i>
+            <div class="main-nav_container--mobile">
+            <div class="main-nav__hamburger--mobile">
+                <input type="checkbox" /> 
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul class="main-nav__list--mobile">
+                    <li class="main-nav__item--mobile" ><a class="main-nav__link relative-link relative-link__about-us" href="About-us.html" > About us</a></li>
+                    <li class="main-nav__item--mobile"><a href="Discopraphy.html" class="main-nav__link"> Discopraphy</a></li>
+                    <li class="main-nav__item--mobile"><a href="Tour-schedule.html" class="main-nav__link"> Tours</a></li>
+                    <li class="main-nav__item--mobile"><a href="gallery.html" class="main-nav__link"> Photos</a></li>
+                </ul>
             </div>
-            <div class="main-nav__logo--mobile">
-               <img src="your-resources/logo.png" alt="logo of dj angerone" class="brand-name--icon brand-name--name">  
+                <div class="main-nav__logo">
+                    <img src="your-resources/logo.png" alt="logo of dj angerone" class="brand-name--icon brand-name--name"> 
+                 </div>
+               
+            
             </div>
 
-            <ul class="main-nav__list--mobile">
-                <li class="main-nav__item--mobile" ><a class="main-nav__link relative-link relative-link__about-us" href="About-us.html" > About us</a></li>
-                <li class="main-nav__item--mobile"><a href="Discopraphy.html" class="main-nav__link"> Discopraphy</a></li>
-                <li class="main-nav__item--mobile"><a href="Tour-schedule.html" class="main-nav__link"> Tours</a></li>
-                <li class="main-nav__item--mobile"><a href="gallery.html" class="main-nav__link"> Photos</a></li>
-            </ul>
            <div class="parameters">
                <i class="fas fa-ellipsis-v"></i>
             </div>
@@ -71,20 +78,21 @@
                 <h3 class="Subtitle" >New Single</h3>
                 <h2 class="title">Feel the Rhythm </h2>
             <div class="playbar">
-                <div class="playbar__button"></div>
-                <div class="playbar__bar"></div>
-                <div class="playbar__time"></div>
+                <div class="playbar__button"><i class="fas fa-play"></i></div>
+                <div class="playbar__bar">  </div>
+                <div class="playbar__time">00:00-04:27</div>
             </div>
         </div>
         </section>
         <section id="nextgig">
             <div class="stack__second-block">
                 <div class="stack__second-block__rectangle">
-                <div class="stack__second-block__block">
-                    <div class="stack__second-block__item">
+                    <div class="stack__second-block__title">
                         <h3 class="stack__second-block__subtitle">Next Gig</h3>
                        <p class="stack__second-block__description">Tickets for my next event are already avaible</p> 
                     </div>
+                <div class="stack__second-block__block">
+                    
                     <div class="stack__second-block__item">
                         <h3 class="stack__second-block__subtitle">41</h3>
                        <p class="stack__second-block__description">days</p> 
@@ -94,14 +102,15 @@
                        <p class="stack__second-block__description">hours</p> 
                     </div>
                     <div class="stack__second-block__item">
-                        <h3 class="stack__second-block__subtitle">59</h3>
+                        <h3 class="stack__second-block__subtitle">58</h3>
                        <p class="stack__second-block__description">Minutes</p> 
                     </div>
-                </div>
-                    <div class="stack__second-block__item">
+                
+                    <div class="stack__second-block__item hidden ">
                         <h3 class="stack__second-block__subtitle">26</h3>
                        <p class="stack__second-block__description">seconds</p> 
                     </div>
+                </div>
                      <a class="boutton" href="#">buy tickets</a>
                 </div>
               
@@ -113,12 +122,12 @@
                 </div>
             <h2 class="stack__second-block__title">about DJ Angerone</h2>
             <p class="stack__second-block__comment" >Mike Myers, professionally known as DJ Angerone, is internationally acclaimed progressive house & Trance DJ & musician.
-                <q class="quotation"> I try to experiment with various music genre in every track that i make </q> Since the begining of his career in 2010, he has already released 5 EPs on a range of worlwide known labels (Booster Records, DSTRCT Recording etc.) and received a number of music awards.</p>
+                <q class="quotation"> <span class="quotation--mark">"</span>I try to experiment with various music genre in every track that i make </q> Since the begining of his career in 2010, he has already released 5 EPs on a range of worlwide known labels (Booster Records, DSTRCT Recording etc.) and received a number of music awards.</p>
     </section>
     <section id="listen">
         <div class="stack__third-block">
             <h2 class="stack__third-block__title">Listen to the Latest Releases by DJ Angerone</h2>
-            <a href=""></a>
+    <a href="">View discography</a>
         </div>
     </section>
     <section id="Latestrelease">
@@ -135,6 +144,7 @@
                     <img src="your-resources/dicography-album-cover-1.jpg" alt="picture of intense cover">
                 </div>
                 <h3 class="card__copy">Intense</h3>
+                <p>2019</p>
             </div>
             <div class="card">
                 <div class="card__image">
@@ -147,6 +157,8 @@
                     <img src="your-resources/dicography-album-cover-3.jpg" alt="picture of trace years mix cover">
                 </div>
                 <h3 class="card__copy">Trace years mix</h3>
+                <p>2019</p>
+            </div>
             </div>
         </div>    
 
@@ -155,12 +167,17 @@
         <section id="fanbase">
 
             <div class="fanbase__galery">
-             <img src="your-resources/fanbase-1.jpg" alt="" class="fanbase--galery__img">
-             <img src="your-resources/fanbase-2.jpg" alt="" class="fanbase--galery__img">
-             <img src="your-resources/fanbase-3.jpg" alt="" class="fanbase--galery__img">
-             <img src="your-resources/fanbase-4.jpg" alt="" class="fanbase--galery__img">
-             <img src="your-resources/fanbase-5.jpg" alt="" class="fanbase--galery__img">
-             <img src="your-resources/fanbase-6.jpg" alt="" class="fanbase--galery__img">
+                <div><img src="your-resources/fanbase-1.jpg" alt="dj table" class="fanbase--galery__img-3"></div>
+                <div class="fanbase-galery_item-2"><img src="your-resources/fanbase-2.jpg" alt="dj mixing table" class="fanbase--galery__img-1"></div>
+                <div class="fanbase-galery_item-5" > <img src="your-resources/about-us-dj-img.jpg" alt="dj picture" class="fanbase--galery__img--modified"></div>
+                <div class="fanbase-galery_item-3"><img src="your-resources/fanbase-2.jpg" alt="dj mixing table" class="fanbase--galery__img">  </div>
+                <div class="fanbase-galery_item-4" ><img src="your-resources/about-us-dj-img.jpg" alt="dj picture" class="fanbase--galery__img--modified"></div>
+                <div><img src="your-resources/fanbase-3.jpg" alt="man having fun" class="fanbase--galery__img-5"></div>
+                <div class ="fanbase-galery_item-7"><img src="your-resources/fanbase-5.jpg" alt="party description" class="fanbase--galery__img"></div>
+                <div> <img src="your-resources/fanbase-5.jpg" alt="party description" class="fanbase--galery__img-2"></div>
+                <div class ="fanbase-galery_item-9"><img src="your-resources/fanbase-6.jpg" alt="men looking at you" class="fanbase--galery__img-4"></div>
+
+             
             </div>
          
             <div class="fanbase__header">
@@ -253,11 +270,11 @@
                      </ul>
                  </div>
                  </div>
-             </section>
+             </section>-->
          
          
          
-         
+         <!--
          <section id="partners">
              <div class="partners--container">
                      <h2 class= "partners__title"> Partners & Sponsors </h2>
@@ -281,7 +298,7 @@
          
                  </div>        
              </div>
-         </section>
+         </section>-->
          
          
          <section id="tickets">
@@ -334,7 +351,7 @@
          
                  </div>
          
-                 <div class="tickets-card">
+              <!--   <div class="tickets-card">
          
                      <h3 class="tickets-card__title">GOLD</h3>
          
@@ -356,8 +373,7 @@
                     <a type="button" class="tickets-card__button" >BUY NOW</a>
                      
          
-                 </div>
-                </div>
+                 </div> 
          </section>
          
          
@@ -385,28 +401,35 @@
          <section id="news">
          
              <h2 class="news__title">Rencent News</h2>
-         
-             <article class="news__block">
-                 <header class="news__block--date"> Jun 02, 2019</header>
+                <div class="news__carousel">
+             <article class="news__block" id="news__block--item1">
+                 <header class="news__block--date"> JUN 02, 2019</header>
                  <h3 class="news__block--title"> New Single "Feel the Rhythm" is Already Available!</h3>
-                 <p class="news__block news__block--info"> DJ angerone's new Single "Feel the Rhthm" is already releasd via Divergenc Records and it'ss now availableor streaming and downloading.</p>
+                 <p class="news__block--info"> DJ angerone's new Single "Feel the Rhthm" is already releasd via Divergenc Records and it'ss now availableor streaming and downloading
+                 </p>
                  <a href="">Read more <i class="fas fa-info"></i> </a>
                 </article>
                  
-         
-             <article class="news__block">
-                 <header class="new__block--date"> jul 02, 2019</header>
+        
+             <article class="news__block" id="news__block--item2">
+                 <header class="news__block--date"> jul 02, 2019</header>
                  <h3 class="news__block--title">3 New Tour Locations Announced</h3>
-                 <p class="new__block--info">We are glad to share with you the recent information about three location od DJ angerone "Subliminal Tour". Now you can</p>
+                 <p class="news__block--info">We are glad to share with you the recent information about three location od DJ angerone "Subliminal Tour". Now you can</p>
                  <a href="">Read more <i class="fas fa-info"></i> </a>
              </article>
-         
-             <article class="news__block">
+            
+          <!--
+             <article class="news__block" id="news__block--item3">
                  <header class="news__block--date"> aug 02, 2019</header>
                  <h3 class="news__block--title"> Top 10 Remixs and collaboration by DJ Angerone</h3>
                  <p class="news__block news__block--info"> A obe of the most prominent house/trance DJ and musicians DJ Angerone hasss releasd a lot of great tracksBu what do you know about this</p>
                  <a href="">Read more <i class="fas fa-info"></i> </a>
-             </article>
+             </article>-->
+                <a href="#news__block--item3"></a>
+                <a href="#news__block--item2"></a>
+                <a href="#news__block--item3">       </a>
+  
+             </div>
          
          </section>
          
@@ -415,11 +438,14 @@
          <section id="subscribe">
          
              <h2 class="subscribe__title"> Subscribe to stay informed</h2>
-         
-             <form action="#"> 
-                 <input type="text" id="mail" name="mail" placeholder="your E-mail">
-                 <input type="submit" value="subscribe">
-             </form>
+            <div class="subscribe__form">
+             <form action=""> 
+                 <input type="text" id="mail" name="mail" placeholder="Your E-mail" class="subscribe__form--mail">
+                </form>
+                
+                 <input type="submit" value="subscribe" class="subscribe__form--btn">
+             
+             </div>
          
          </section>
          
@@ -434,16 +460,16 @@
 
         <div class="brand-name">
            
-            <img src="your-resources/logo.png" alt="Logo of dj Angerone" class="brand-name--icon" >
-    
+            <img src="your-resources/logo.png" alt="">
+
         </div>
     
     
             <ul class="relative-link__footer">
-                <li><a href="About-us.html" class="relative-link relative-link__about-us"> About us</a></li>
-                <li><a href="Discopraphy.html" class="relative-link relative-link__discopraphy"> Discopraphy</a></li>
-                <li><a href="Tour-schedule.html" class="relative-link relative-link__tour"> Tours</a></li>
-                <li><a href="gallery.html" class="relative-link relative-link__gallery"> Photos</a></li>
+                <li class="relative-link__footer--item"><a href="About-us.html" class="relative-link relative-link__about-us"> About us</a></li>
+                <li class="relative-link__footer--item"><a href="Discopraphy.html" class="relative-link relative-link__discopraphy"> Discopraphy</a></li>
+                <li class="relative-link__footer--item"><a href="Tour-schedule.html" class="relative-link relative-link__tour"> Tours</a></li>
+                <li class="relative-link__footer--item"><a href="gallery.html" class="relative-link relative-link__gallery"> Photos</a></li>
             </ul>
     
     
@@ -453,21 +479,22 @@
        
     
             <ul class="social__footer">
-                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href=""><i class="fab fa-instagram"></i></a></li>   
-                <li><a href=""><i class="fab fa-twitter"></i></a></li>
-                <li><a href=""><i class="fab fa-youtube"></i></a></li>
-                <li><a href=""><i class="fab fa-pinterest-p"></i></a></li>
+                <li class="social__footer--item "><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li class="social__footer--item "><a href=""><i class="fab fa-instagram"></i></a></li>   
+                <li class="social__footer--item "><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li class="social__footer--item "><a href=""><i class="fab fa-youtube"></i></a></li>
+                <li class="social__footer--item "><a href=""><i class="fab fa-pinterest-p"></i></a></li>
             </ul>
     
     
-        <p><i class="far fa-copyright"></i>2021 Dj angron Privacy</p>
+        <p class="footer__copyright"><i class="far fa-copyright"></i>2021 Dj angron Privacy</p>
 
                 <!--scroll-beavhior:smooth-->
-        <a href="#header" class="footer__upbtn"><i class="fas fa-chevron-up"></i></a>
+       
     
     
     
-    </footer>
+    </footer> 
+    <a href="#header" class="footer__upbtn"><i class="fas fa-chevron-up"></i></a>
 </body>
 </html>
