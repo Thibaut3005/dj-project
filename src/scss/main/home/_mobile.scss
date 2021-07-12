@@ -1,0 +1,287 @@
+ /*-------------------------------------------------------subscribe------------------------------------------*/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+ #subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/your-resources/homepage-footer-background.jpg");
+    background-repeat: no-repeat;
+    background-position: 31% 80%; 
+    width: 100vw;
+    height: auto;
+    
+  
+  }
+  #subscribe .subscribe__title {
+    color: white;
+    margin: 2rem;
+    top: 2rem;
+    text-align: center;
+  }
+  #subscribe .subscribe__form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  }
+  #subscribe .subscribe__form--btn{
+    margin: 1rem;
+    font-size: 1.5rem;
+    width: 90vw;
+    height: 10vw;
+    border-radius: 0.4rem;
+    background-color:#8121e0;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 4rem;
+  }
+  
+  #subscribe .subscribe__form--mail {
+    
+  width: 90vw;
+  height: 10vw;
+  border-radius: 0.4rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+  }
+  /* --------------------recent news--------------*/
+  
+  #news {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+    
+  
+  }
+  #news .news__title{
+    
+    margin: 4rem auto;
+   padding: 4rem auto;
+  }
+  #news .news__block{
+    padding: 0 4rem 3rem 0.5rem;
+  }
+  
+  .news__block--date{
+    width: max-content;
+    background-color:#8121e0; 
+    background-size: auto;
+    width: fit-content;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.3rem;
+    color: white;
+    font-weight: 900;
+  }
+  #news .news__block--title{
+    line-height: 1.8rem;
+    font-weight: 300;
+    margin: 1rem 0 1rem 0;
+    }
+    #news .news__block--info{
+  
+      line-height: 1.8rem;
+      font-weight: 300;
+      margin-bottom: 2rem;
+  
+      }
+      #news a{
+        color: black;
+        text-decoration: none;
+        font-size: 1.5rem;
+        
+      }
+  
+      /*-----------galery--------------*/
+  
+      #gallery .galery--container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100vw;
+        height: auto;
+      }
+      #gallery .galery--container img{
+        padding: 0;
+        margin-top:-4px;
+        max-width: 100vw;
+        height: auto;  
+      }
+         /*-----------ticket--------------*/
+  
+     #tickets {
+      
+       width: 100vw;
+       height: auto;
+     } 
+     #tickets .tickets--container {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         padding: 3rem;
+     }
+     #tickets .tickets__title{
+         margin-bottom: 3rem;
+     }
+       #tickets .tickets-card{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+       }
+     #tickets .tickets-cards{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     #tickets .tickets-card__title{
+         font-weight: 200;
+         text-align: center;
+         letter-spacing: 0.1rem;
+         margin-bottom: 1rem;
+     }
+     #tickets .tickets-card__price{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+         position: relative;
+     }
+     #tickets .tickets-card__dollar{
+        font-weight: 800;
+        position: relative;
+        top: 10px;
+        
+     }
+     #tickets .tickets-card__number{
+         font-size: 3rem;
+         font-weight: 400;
+         
+     }
+     
+     #tickets .tickets-card__body ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #444444;
+     } 
+     #tickets .tickets-card__body ul li{
+         padding: 0.2rem;
+         margin: 0.2rem;
+     }
+     #tickets .tickets-card__button{
+         margin-top:1rem;
+         padding:  1rem 2rem 1rem 2em;
+         background-color: white;
+         border: 0.1rem solid black;
+         border-radius: 0.3rem;
+          }
+          #tickets .tickets-card__button:hover{
+            color: white;
+            background:#8121e0;
+            border: #8121e0;
+            cursor: pointer;
+          }
+
+/*----------------------------------latest release-----------------------*/
+#Latestrelease .Latestrelease__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+#Latestrelease .Latestrelease__block--texte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+#Latestrelease .Latestrelease__block--texte .Latestrelease__block--title{
+    margin: 3rem 0 2rem 0;
+}
+#Latestrelease .Latestrelease__block--texte .Latestrelease__block--desc{
+    color: #444444;
+    text-justify: center;
+    text-align: center;
+    padding: 0.5rem;
+    margin-bottom: 2.5rem;
+    line-height: 2rem;
+    font-weight: lighter;
+}
+#Latestrelease .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+#Latestrelease .card .card__image img{
+    width: 95vw;
+    height: auto;
+}
+#Latestrelease .card .card__copy{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+#Latestrelease .card p{
+    color: #444444;
+    padding-top: 0.5rem;
+    font-weight: 400;
+}
+
+/*--------------------------------------------disco------------------------*/
+
+#listen{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/your-resources/homepage-latest-releases-background.jpg");
+  background-repeat: no-repeat;
+  background-position: 57% 36%;
+  width: 100vw;
+  height: 80vw;
+
+}
+#listen .stack__third-block{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+#listen .stack__third-block .stack__third-block__title{
+    text-align: center;
+    padding: 1rem;
+    color:white;
+    font-weight: 600;
+
+}
+#listen a{
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+     margin: 1rem;
+    font-size: 1.5rem;
+    border-radius: 0.4rem;
+    background-color:#8121e0;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}

@@ -1,0 +1,176 @@
+/* ---------------------------------------------------------------footer------------------------------------*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #282828;
+  margin: 0px;
+  padding: 2rem; }
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.footer .social__footer {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem; }
+
+.footer li {
+  color: white;
+  text-decoration: none; }
+
+.social__footer--item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #444444;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font-size: 1rem; }
+
+.relative-link__footer--item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  margin: 0.5rem; }
+
+.relative-link__footer--item a {
+  color: white;
+  text-decoration: none; }
+
+.social__footer--item a {
+  color: white; }
+
+.footer__upbtn {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  color: white;
+  background-color: #8121e0;
+  margin-right: 1.5rem;
+  margin-bottom: 1rem;
+  padding: 0.6rem;
+  border-radius: 0.3rem;
+  font-size: 0.8rem;
+  scroll-behavior: smooth; }
+
+footer .footer__copyright {
+  color: #444444;
+  font-size: 0.9rem; }
+
+/* ---------------------------------------------------------footer------------------------------------*/
+/*-------------------------------------------------------subscribe------------------------------------------*/
+#subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/your-resources/homepage-footer-background.jpg");
+  background-repeat: no-repeat;
+  background-position: 31% 80%;
+  width: 100vw;
+  height: 60vw; }
+
+#subscribe .subscribe__title {
+  color: white;
+  margin: 2rem;
+  top: 2rem;
+  text-align: center; }
+
+#subscribe .subscribe__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+#subscribe .subscribe__form--btn {
+  margin: 1rem;
+  font-size: 1.5rem;
+  width: 90vw;
+  height: 10vw;
+  border-radius: 0.4rem;
+  background-color: #8121e0; }
+
+#subscribe .subscribe__form--mail {
+  width: 88vw;
+  height: 10vw;
+  border-radius: 0.4rem;
+  font-size: 1.5rem; }
+
+/* --------------------recent news--------------*/
+#news {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: auto; }
+
+#news .news__title {
+  padding-top: 3rem;
+  margin-bottom: 5rem; }
+
+#news .news__block {
+  padding: 0 4rem 3rem 0.5rem; }
+
+.news__block--date {
+  width: max-content;
+  background-color: #8121e0;
+  background-size: auto;
+  width: fit-content;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 0.3rem;
+  color: white;
+  font-weight: 900; }
+
+#news .news__block--title {
+  line-height: 1.8rem;
+  font-weight: 300;
+  margin: 1rem 0 1rem 0; }
+
+#news .news__block--info {
+  line-height: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 2rem; }
+
+#news a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem; }
+
+/*-----------galery--------------*/
+#gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+
+#gallery .galery--container img {
+  padding: 0;
+  margin-top: -4px;
+  width: 100vw;
+  height: auto; }
+
+/*-----------ticket--------------*/
+#tickets {
+  display: block;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: center;
+  width: 100vw;
+  height: 180vw; }
+
+/*# sourceMappingURL=style.css.map */
