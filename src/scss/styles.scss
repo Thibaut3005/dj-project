@@ -18,7 +18,11 @@
 
 
 // import Main/tablet 
+<<<<<<< HEAD
 @media (min-width:720px){
+=======
+@media (min-width:480px){
+>>>>>>> dev
 @import 'footer/_tablet.scss';
 @import 'header/_tablet.scss';
 @import 'main/about/_tablet.scss';
@@ -30,8 +34,13 @@
 
 // importe Main/desktop
 @media (min-width:1025px){
+<<<<<<< HEAD
 @import 'footer/_Desktop.scss';
 @import 'header/_Desktop.scss';
+=======
+@import 'footer/_desktop.scss';
+@import 'header/_desktop.scss';
+>>>>>>> dev
 @import 'main/about/_desktop.scss';
 @import "main/disco/_desktop.scss";
 @import "main/gallery/_desktop.scss";
