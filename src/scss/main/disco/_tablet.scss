@@ -1,0 +1,43 @@
+.stack_first-block--Discopraphy{
+
+    height : 30vh;
+
+
+    
+    
+    
+    
+
+     h1 {
+
+         font-size : 4vw;
+     }
+     .main-nav__list{
+         width : 32vw;
+         
+         li {
+            i {
+                font-size: 1.2vw;
+            }
+            a {
+                text-transform: uppercase;
+                font-size : 2vw;
+               
+            }
+            &:nth-child(3){
+                opacity: 0.70;
+            }
+
+         }
+     }
+    
+}
+
+
+
+
+.main-nav__logo{
+    margin-left : 1vw;
+}
+
+

@@ -867,6 +867,39 @@ footer .footer__copyright {
     font-size: 0.9rem;
   }
 
+  .header {
+    max-width: 1020px;
+    width: 100vw;
+  }
+
+  .main-nav--mobile .parameters {
+    padding: 0 2rem 0 3rem;
+  }
+
+  .stack_first-block--Discopraphy {
+    height: 30vh;
+  }
+  .stack_first-block--Discopraphy h1 {
+    font-size: 4vw;
+  }
+  .stack_first-block--Discopraphy .main-nav__list {
+    width: 32vw;
+  }
+  .stack_first-block--Discopraphy .main-nav__list li i {
+    font-size: 1.2vw;
+  }
+  .stack_first-block--Discopraphy .main-nav__list li a {
+    text-transform: uppercase;
+    font-size: 2vw;
+  }
+  .stack_first-block--Discopraphy .main-nav__list li:nth-child(3) {
+    opacity: 0.7;
+  }
+
+  .main-nav__logo {
+    margin-left: 1vw;
+  }
+
   #subscribe {
     display: flex;
     flex-direction: column;
@@ -1118,13 +1151,13 @@ footer .footer__copyright {
   }
 
   #Latestrelease .card .card__image img {
-    max-width: 40vw;
+    max-width: 95vw;
     height: auto;
   }
 
   #Latestrelease .card .card__copy {
     padding-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 500;
   }
 
@@ -1132,6 +1165,7 @@ footer .footer__copyright {
     color: #444444;
     padding-top: 0.5rem;
     font-weight: 400;
+    font-size: 1.5rem;
   }
 
   /*--------------------------------------------disco------------------------*/
@@ -1254,6 +1288,92 @@ footer .footer__copyright {
   footer .footer__copyright {
     color: #444444;
     font-size: 0.9rem;
+  }
+
+  .main-nav--mobile {
+    display: none;
+  }
+
+  .main-nav {
+    display: flex;
+    position: absolute;
+    justify-content: space-evenly;
+    width: 85vw;
+    color: white;
+  }
+  .main-nav .main-nav__logo {
+    margin-top: 2vh;
+  }
+  .main-nav .main-nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 50vw;
+  }
+  .main-nav .main-nav__list li a {
+    text-decoration: none;
+    color: white;
+  }
+  .main-nav .main-nav__list-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 13vw;
+  }
+  .main-nav .main-nav__list-social li a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+  }
+  .main-nav .main-nav__hamburger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+  }
+
+  .stack_first-block--Discopraphy {
+    padding-top: 51vh;
+    padding-bottom: 32vh;
+  }
+  .stack_first-block--Discopraphy h1 {
+    font-size: 2vw;
+  }
+  .stack_first-block--Discopraphy .main-nav__list {
+    width: 16vw;
+  }
+  .stack_first-block--Discopraphy .main-nav__list .main-nav__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .stack_first-block--Discopraphy .main-nav__list .main-nav__item a {
+    font-size: 1vw;
+  }
+  .stack_first-block--Discopraphy .main-nav__list .main-nav__item i {
+    font-size: 0.5vw;
+  }
+
+  .stack_first-block--Discopraphy {
+    background-position-x: -9vw;
+    background-position-y: -30vh;
+    background-size: 117vw;
+    background-repeat: no-repeat;
+  }
+
+  #Latestrelease .card .card__image img {
+    max-width: 29vw;
+    height: auto;
+  }
+
+  #Latestrelease .Latestrelease__block {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
   }
 }
 
