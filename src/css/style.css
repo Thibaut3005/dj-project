@@ -218,6 +218,9 @@
   width: 95vw;
   margin: auto;
 }
+.stack__second-block__image img {
+  width: 95vw;
+}
 
 .stack__second-block__title {
   text-transform: capitalize;
