@@ -10,13 +10,16 @@
 </head>
 <body>
     
-<header class="header">
+    <header class="header" id="header">
         <nav class="main-nav" aria-label="Main" >
             <div class="main-nav__logo">
-                <img src="your-resources/logo.png" alt="DJ Angerone's logo">
+               <h3>
+                   <img src="your-resources/favicon.ico" alt="DJ Angerone's logo">
+                   Dj Angerone
+               </h3> 
             </div>
             <ul class="main-nav__list">
-                <li class="main-nav__item" ><a class="main-nav__link" href="About-us.html" class="relative-link relative-link__about-us"> About us</a></li>
+                <li class="main-nav__item" ><a class="main-nav__link" href="About-us.html" > About us</a></li>
                 <li class="main-nav__item"><a href="Discopraphy.html" class="main-nav__link"> Discopraphy</a></li>
                 <li class="main-nav__item"><a href="Tour-schedule.html" class="main-nav__link"> Tours</a></li>
                 <li class="main-nav__item"><a href="gallery.html" class="main-nav__link"> Photos</a></li>
@@ -30,6 +33,34 @@
             <div class="main-nav__hamburger">
                 <i class="fas fa-bars"></i>
             </div>
+
+        </nav>
+        <nav class="main-nav--mobile">
+            <div class="main-nav_container--mobile">
+            <div class="main-nav__hamburger--mobile">
+                <input type="checkbox" /> 
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul class="main-nav__list--mobile">
+                    <li class="main-nav__item--mobile" ><a class="main-nav__link relative-link relative-link__about-us" href="About-us.html" > About us</a></li>
+                    <li class="main-nav__item--mobile"><a href="Discopraphy.html" class="main-nav__link"> Discopraphy</a></li>
+                    <li class="main-nav__item--mobile"><a href="Tour-schedule.html" class="main-nav__link"> Tours</a></li>
+                    <li class="main-nav__item--mobile"><a href="gallery.html" class="main-nav__link"> Photos</a></li>
+                </ul>
+            </div>
+                <div class="main-nav__logo">
+                    <img src="your-resources/logo.png" alt="logo of dj angerone" class="brand-name--icon brand-name--name"> 
+                 </div>
+               
+            
+            </div>
+
+           <div class="parameters">
+               <i class="fas fa-ellipsis-v"></i>
+            </div>
+            
+
 
         </nav>
     </header>
@@ -49,20 +80,20 @@
     <img src="your-resources/gallery-1.jpg" alt="" class="gallery__img">
 </section>
 
-<footer class="footer">
+<!--<footer class="footer">
 
     <div class="brand-name">
        
-        <h3><img src="your-resources/favicon.ico" alt="" class="brand-name--icon"class="brand-name--name">DJ Angerone</h3>
+        <img src="your-resources/logo.png" alt="">
 
     </div>
 
 
         <ul class="relative-link__footer">
-            <li><a href="About-us.html" class="relative-link relative-link__about-us"> About us</a></li>
-            <li><a href="Discopraphy.html" class="relative-link relative-link__discopraphy"> Discopraphy</a></li>
-            <li><a href="Tour-schedule.html" class="relative-link relative-link__tour"> Tours</a></li>
-            <li><a href="gallery.html" class="relative-link relative-link__gallery"> Photos</a></li>
+            <li class="relative-link__footer--item"><a href="About-us.html" class="relative-link relative-link__about-us"> About us</a></li>
+            <li class="relative-link__footer--item"><a href="Discopraphy.html" class="relative-link relative-link__discopraphy"> Discopraphy</a></li>
+            <li class="relative-link__footer--item"><a href="Tour-schedule.html" class="relative-link relative-link__tour"> Tours</a></li>
+            <li class="relative-link__footer--item"><a href="gallery.html" class="relative-link relative-link__gallery"> Photos</a></li>
         </ul>
 
 
@@ -72,18 +103,23 @@
    
 
         <ul class="social__footer">
-            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href=""><i class="fab fa-instagram"></i></a></li>   
-            <li><a href=""><i class="fab fa-twitter"></i></a></li>
-            <li><a href=""><i class="fab fa-youtube"></i></a></li>
-            <li><a href=""><i class="fab fa-pinterest-p"></i></a></li>
+            <li class="social__footer--item "><a href=""><i class="fab fa-facebook-f"></i></a></li>
+            <li class="social__footer--item "><a href=""><i class="fab fa-instagram"></i></a></li>   
+            <li class="social__footer--item "><a href=""><i class="fab fa-twitter"></i></a></li>
+            <li class="social__footer--item "><a href=""><i class="fab fa-youtube"></i></a></li>
+            <li class="social__footer--item "><a href=""><i class="fab fa-pinterest-p"></i></a></li>
         </ul>
 
 
-    <p><i class="far fa-copyright"></i>2021 Dj angron Privacy</p>
+    <p class="footer__copyright"><i class="far fa-copyright"></i>2021 Dj angron Privacy</p>
+
+            <!--scroll-beavhior:smooth
+   
 
 
-</footer>
+
+</footer> 
+<a href="#header" class="footer__upbtn"><i class="fas fa-chevron-up"></i></a>-->
     
 </body>
 </html>
