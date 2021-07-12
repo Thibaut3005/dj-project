@@ -1,0 +1,117 @@
+//import utils 
+@import 'utils/_reset.scss';
+
+//import color 
+@import "color/_color.scss";
+
+//import mixin 
+@import "mixins/_mixins.scss";
+
+
+
+*{
+    padding : 0 ; 
+    margin : 0 ; 
+    box-sizing: border-box;  
+    font-size: 1.8vh; 
+
+}
+
+*::-webkit-scrollbar {
+    width: 1vw;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: $purple;
+    border:none;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background: $white;
+    border: none;
+  }
+  
+
+  html {
+  scroll-behavior: smooth;
+}
+
+
+  body {
+    font-family: $font;
+    box-sizing: content-box; 
+}
+
+
+
+a {
+text-decoration: none;
+color: $white;
+opacity:1;
+font-family: $font;
+font-weight: 900; 
+font-size: $medium;
+transition: 00ms;
+line-height: 2rem;
+}
+
+a:hover {
+opacity:0.5;
+}
+
+ol,ul,li {
+padding: 0;
+list-style-type: none;
+}
+
+input {
+display: none;
+}
+
+
+p{
+color: $grey;
+font-family: $font;
+font-weight: 300;
+line-height: 2rem;
+padding-right: 0.5rem;
+padding-left: 1.5rem;
+padding-bottom: 0.5rem;
+font-size: $small;
+text-align: justify;  
+}
+
+img {
+box-sizing: content-box; 
+width:95%;
+margin:auto;
+}
+
+
+h2 {
+    font-size : $big; 
+    color : $darkgrey; 
+    font-weight: $bold ; 
+    font-family: $font;
+}
+
+h3 {
+    font-size : $big; 
+    color : $darkgrey; 
+    font-weight: 500 ; 
+    font-family: $font;
+}
+
+h4 {
+    font-size : $medium; 
+    color : $grey; 
+    font-weight: 300 ; 
+    font-family: $font;
+}
+
+h5 {
+    font-size : $small; 
+    color : $grey; 
+    font-weight: 300 ; 
+    font-family: $font;
+}

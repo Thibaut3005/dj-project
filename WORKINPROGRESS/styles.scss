@@ -1,0 +1,30 @@
+//import utils 
+@import 'utils/_reset.scss';
+
+@import '_spec.scss';
+
+//import color 
+@import "color/_color.scss";
+
+//import mixin 
+@import "mixins/_mixins.scss";
+
+// import Main/mobile
+@import 'footer/_mobile.scss';
+@import 'header/_mobile.scss';
+@import "main/home/_mobile.scss";
+@import "_nav.scss";
+@import "_single.scss";
+@import "_fanbase.scss";
+@import "_tour-schedule.scss";
+@import "_partners.scss";
+@import "_tickets.scss";
+@import "_news.scss";
+@import "_subscribe.scss";
+@import "_footer.scss";
+@import "_upbutton.scss";
+
+
+
+
+

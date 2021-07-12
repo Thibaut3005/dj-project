@@ -1,0 +1,91 @@
+//import utils 
+@import 'utils/_reset.scss';
+
+//import color 
+@import "color/_color.scss";
+
+//import mixin 
+@import "mixins/_mixins.scss";
+
+// import Main/mobile
+@import 'footer/_mobile.scss';
+@import 'header/_mobile.scss';
+@import "main/home/_mobile.scss";
+
+#subscribe{
+  @include flex;
+  position: relative;
+  flex-direction: column;
+  margin-top: 1rem;
+  background-image: url("your-resources/homepage-footer-background.jpg");
+  background-size: 400%;
+  background-position: 50% 30%;
+  background-repeat: no-repeat; 
+  padding-bottom: 2.5rem;
+}
+
+
+#subscribe .subscribe__title {
+  color: $white;
+  margin: 2rem;
+  top: 2rem;
+  text-align: center;
+}
+
+#subscribe .subscribe__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#subscribe .subscribe__form--btn {
+  margin: 1rem;
+  font-size: 1.5rem;
+  width: 90vw;
+  height: 10vw;
+  border-radius: 0.4rem;
+  background-color: #8121e0;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 4rem;
+}
+
+#subscribe .subscribe__form--mail {
+  width: 90vw;
+  height: 10vw;
+  border-radius: 0.4rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+  
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 1.2rem;
+    margin: 0.5rem;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: $font;
+  }
+  
+  
+  input[type=submit] {
+    background-color: $purple;
+    color: $white;
+    border: none;
+    font-size:$medium;
+    font-family: $font;
+    font-weight: 600;
+    padding:1.5rem;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+  
+  input[type=text] {
+    font-size:$medium;
+    font-family: $font;
+  }
