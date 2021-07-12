@@ -1,0 +1,58 @@
+
+
+
+//import color 
+@import "color/_color.scss";
+
+//import mixin 
+@import "mixins/_mixins.scss";
+
+// import Main/mobile
+@import 'footer/_mobile.scss';
+@import 'header/_mobile.scss';
+@import 'main/about/_mobile.scss';
+@import "main/disco/_mobile.scss";
+@import "main/gallery/_mobile.scss";
+@import "main/home/_mobile.scss";
+@import "main/tour/_mobile.scss";
+
+
+// import Main/tablet 
+@media (min-width:480px){
+@import 'footer/_tablet.scss';
+@import 'header/_tablet.scss';
+@import 'main/about/_tablet.scss';
+@import "main/disco/_tablet.scss";
+@import "main/gallery/_tablet.scss";
+@import "main/home/_tablet.scss";
+@import "main/tour/_tablet.scss";
+}
+
+// importe Main/desktop
+@media (min-width:1025px){
+@import 'footer/_Desktop.scss';
+@import 'header/_Desktop.scss';
+@import 'main/about/_desktop.scss';
+@import "main/disco/_desktop.scss";
+@import "main/gallery/_desktop.scss";
+@import "main/home/_desktop.scss";
+@import "main/tour/_desktop.scss";
+}
+
+
+@import "_tour-schedule.scss";
+@import "_nav.scss";
+@import "_single.scss";
+@import "_fanbase.scss";
+@import "_tour-schedule.scss";
+@import "_partners.scss";
+@import "_tickets.scss";
+@import "_news.scss";
+@import "_subscribe.scss";
+@import "_footer.scss";
+
+
+
+
+
+

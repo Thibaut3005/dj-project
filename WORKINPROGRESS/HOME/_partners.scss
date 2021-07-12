@@ -1,0 +1,395 @@
+
+ //import utils 
+ @import 'utils/_reset.scss';
+
+ //import color 
+ @import "color/_color.scss";
+ 
+ //import mixin 
+ @import "mixins/_mixins.scss";
+ 
+ *{
+   padding : 0 ;
+   margin : 0 ;
+   box-sizing: border-box;
+ }
+ 
+ 
+ 
+ *::-webkit-scrollbar {
+   width: 1vw;
+ }
+ 
+ *::-webkit-scrollbar-track {
+   background: $purple;
+   border:none;
+ }
+ 
+ *::-webkit-scrollbar-thumb {
+   background: white;
+   border: none;
+ }
+ 
+ 
+ html {
+ scroll-behavior: smooth;
+ }
+ 
+ 
+ body {
+   font-family: $font;
+   box-sizing: content-box; 
+ }
+ 
+.partners__slider-container>a {
+  text-decoration: none;
+  color: white;
+  opacity:1;
+  font-family: $font;
+  font-weight: 900; 
+  font-size: $medium;
+  transition: 00ms;
+  line-height: 2rem;
+  }
+  
+  .partners__slider-container>a:hover {
+  opacity:0.5;
+  }
+  
+  .partners__slider-container>ol,ul,li {
+  padding: 0;
+  list-style-type: none;
+  }
+  .partners__slider-container>input {
+  display: none;
+  }
+  
+  
+
+ @media (max-width:480px){
+
+#partners{
+    @include flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    scrollbar-color: transparent transparent; 
+    background-image: url("your-resources/homepage-sponsors-background.jpg");
+    background-size: 400%;
+    background-position: 50% 30%;
+    background-repeat: no-repeat; 
+  }
+  
+  
+  
+  .partners__container{
+    @include flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    height: auto;
+    box-sizing:content-box;
+    
+    }
+  
+  .partners__title{
+      @include title;
+    text-align: center;
+    color: white;
+    letter-spacing: 0.1rem;
+    padding:3rem;
+  
+  }
+  
+  
+  #partners img {
+      max-width: 100%;
+    }
+    
+    .partners__slider-container{
+      @include flex;
+      flex-direction: column;
+      height: 8rem;
+      width: 100%;
+      position: relative;
+      overflow: hidden; 
+      text-align: center;
+      box-sizing:content-box;
+    }
+    
+    .partners__menu {
+      @include flex;
+      flex-direction: row;
+      position: absolute; 
+      box-sizing:content-box;
+      z-index: 900;
+      width: 100%;
+      bottom: 0;
+      padding-top:2rem;
+    }
+    
+    .partners__menu label {   
+      cursor: pointer;
+      display: inline-block;
+      width: 1rem;
+      height: 1rem;
+      background: $grey;
+      border-radius: 50px;
+      margin:1rem;
+    }
+    .partners__menu label:hover {
+      background: $white;
+    }
+    
+    .partners__slide {
+      display: inline-flex;
+      justify-self: center;
+      box-sizing:content-box;
+      width: 100vw;
+      height: fit-content;
+      position: absolute;
+      top: 0;
+      left: 100%;
+      z-index: 10;
+      background-size: 25%;
+      background-position: 50% 0%;
+      background-repeat: no-repeat;
+      transition: left 0s 0.75s;
+    }
+    
+    [id^="partners__slide"]:checked + .partners__slide {
+      left: 0;
+      z-index: 10;
+      transition: left .65s ease-out;
+    }
+    
+    .partners__slide-1 {
+      background-image: url("logos/banana.svg");
+    }
+    .partners__slide-2 {
+      background-image: url("logos/cube.svg");
+    }
+    .partners__slide-3 {
+      background-image: url("logos/dance.svg");
+    }
+    .partners__slide-4 {
+      background-image: url("logos/web.svg");
+    }
+ }
+
+ @media (min-width:480px){
+
+  #partners{
+      @include flex;
+      flex-direction: column;
+      margin-top: 2rem;
+      margin-bottom: 4rem;
+      scrollbar-color: transparent transparent; 
+      background-image: url("your-resources/homepage-sponsors-background.jpg");
+      background-size: 400%;
+      background-position: 50% 30%;
+      background-repeat: no-repeat; 
+    }
+    
+    
+    
+    .partners__container{
+      @include flex;
+      flex-direction: column;
+      margin: 0.5rem;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      width: 100%;
+      height: auto;
+      box-sizing:content-box;
+      
+      }
+    
+    .partners__title{
+        @include title;
+      text-align: center;
+      color: white;
+      letter-spacing: 0.1rem;
+      padding:3rem;
+    
+    }
+    
+    
+    #partners img {
+        max-width: 100%;
+      }
+      
+      .partners__slider-container{
+        @include flex;
+        flex-direction: column;
+        height: 8rem;
+        width: 100%;
+        position: relative;
+        overflow: hidden; 
+        text-align: center;
+        box-sizing:content-box;
+      }
+      
+      .partners__menu {
+        @include flex;
+        flex-direction: row;
+        position: absolute; 
+        box-sizing:content-box;
+        z-index: 900;
+        width: 100%;
+        bottom: 0;
+        padding-top:2rem;
+      }
+      
+      .partners__menu label {   
+        cursor: pointer;
+        display: inline-block;
+        width: 1rem;
+        height: 1rem;
+        background: $grey;
+        border-radius: 50px;
+        margin:1rem;
+      }
+      .partners__menu label:hover {
+        background: $white;
+      }
+      
+      .partners__slide {
+        display: inline-flex;
+        justify-self: center;
+        box-sizing:content-box;
+        width: 50vw;
+        height: fit-content;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        z-index: 10;
+        background-size: 25%;
+        background-position: 50% 0%;
+        background-repeat: no-repeat;
+        transition: left 0s 0.75s;
+      }
+      
+      [id^="partners__slide"]:checked + .partners__slide {
+        left: 0;
+        z-index: 10;
+        transition: left .65s ease-out;
+      }
+      
+      .partners__slide-1 {
+        background-image: url("logos/banana.svg");
+      }
+      .partners__slide-2 {
+        background-image: url("logos/cube.svg");
+      }
+      .partners__slide-3 {
+        background-image: url("logos/dance.svg");
+      }
+      .partners__slide-4 {
+        background-image: url("logos/web.svg");
+      }
+   }
+  
+   @media (min-width:1025px){
+
+    #partners{
+        @include flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+        scrollbar-color: transparent transparent; 
+        background-image: url("your-resources/homepage-sponsors-background.jpg");
+        background-size: 400%;
+        background-position: 50% 30%;
+        background-repeat: no-repeat; 
+      }
+      
+      
+      
+      .partners__container{
+        @include flex;
+        flex-direction: column;
+        margin: 0.5rem;
+        margin-bottom: 2rem;
+        padding-bottom: 1rem;
+        width: 100vw;
+        height: auto;
+        box-sizing:content-box;
+        
+        }
+      
+      .partners__title{
+          @include title;
+        text-align: center;
+        color: white;
+        letter-spacing: 0.1rem;
+        padding:3rem;
+      
+      }
+      
+      
+      #partners img {
+          max-width: 100%;
+        }
+        
+        .partners__slider-container{
+          @include flex;
+          flex-direction: row;
+          height: 8rem;
+          width: 100vw;
+          position: relative;
+          overflow: hidden; 
+          text-align: center;
+       
+        }
+        
+        .partners__menu {
+          @include flex;
+          flex-direction: row;
+          position: absolute; 
+          box-sizing:content-box;
+          z-index: 900;
+          width: 100%;
+          bottom: 0;
+          padding-top:2rem;
+        }
+        
+        .partners__menu label {   
+          cursor: pointer;
+          display: inline-block;
+          width: 1rem;
+          height: 1rem;
+          background: $grey;
+          border-radius: 50px;
+          margin:1rem;
+        }
+        .partners__menu label:hover {
+          background: $white;
+        }
+        
+        .partners__slide {
+          display: inline-flex;
+          justify-self: center;
+          width: 33vw;
+          height: 100%;
+          position: relative;
+         
+        }
+        
+        .partners__slide-1 {
+          background-image: url("logos/banana.svg");
+        }
+        .partners__slide-2 {
+          background-image: url("logos/cube.svg");
+        }
+        .partners__slide-3 {
+          background-image: url("logos/dance.svg");
+        }
+        .partners__slide-4 {
+          background-image: url("logos/web.svg");
+        }
+     }
+    
+       
