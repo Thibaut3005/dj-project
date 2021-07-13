@@ -1,0 +1,94 @@
+#profil{
+
+    position: relative;
+}
+.profil__description--name{
+    border-bottom: solid #444444;
+    padding: 1rem;
+    margin: 1rem;
+    
+}
+.profil__text,.profil__quote{
+    text-align: center;
+}
+
+.profil__descritpion--contact{
+
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+.profil__descritpion--contact li{
+    padding: 1rem;
+
+}
+#profil .profil__social{
+    display: flex;
+    flex-direction: row;
+
+    margin: 1rem;
+    }
+.profil__social li{
+    color: black;
+
+}
+
+#profil .profil__text{ 
+    padding: 1rem;
+    margin: 1rem;
+
+}
+#profil .profil__quote{
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 100;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#profil .profile__description--signature{
+    right: 1rem;
+}
+
+#profil .profile__description--profile__description--link{
+left: -1rem;
+text-decoration: none;
+color: white;
+background-color: #8121e0;
+padding: 1rem;
+border-radius: 0.5rem;
+}
+
+.discover__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.discover__card h4{
+    padding:1rem;
+    font-size: 2rem;
+    font-weight: 300;
+
+}
+.discover__card p{
+    line-height: 1rem;
+    margin: 0 1rem;
+
+}
+.discover__card i{
+    color: #8121e0;
+    font-size: 2rem;
+    padding: 1rem;
+}
+#profil img {
+    width: 100vw;
+    margin: 2rem 0;
+}
+
+.discover--title{
+    margin: auto;
+}
