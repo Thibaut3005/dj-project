@@ -1,11 +1,6 @@
 .stack_first-block--Discopraphy{
 
     height : 30vh;
-
-
-    
-    
-    
     
 
      h1 {
@@ -34,6 +29,14 @@
 }
 
 
+.Latestrelease_discography {
+    .Latestrelease__block {
+        display: flex !important;
+        flex-wrap: wrap;
+        flex-direction: row!important;
+
+        }
+    }
 
 
 .main-nav__logo{
