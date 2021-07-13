@@ -305,7 +305,7 @@ footer .footer__copyright {
 
 .stack_first-block--Discopraphy {
   padding: 12vh 0;
-  background-image: url("../../../../your-resources/banner-img.jpg");
+  background-image: url("../../your-resources/banner-img.jpg");
   height: 15vh;
   width: 100vw;
   background-position-x: -143vw;
@@ -1162,7 +1162,7 @@ footer .footer__copyright {
 }
 
 .partners__slide-1 {
-  background-image: url("../../../../logos/banana.svg");
+  background-image: url("../../logos/banana.svg");
 }
 
 .partners__slide-2 {
@@ -1170,7 +1170,7 @@ footer .footer__copyright {
 }
 
 .partners__slide-3 {
-  background-image: url("../../logos/dance.svg");
+  background-image: url("../../../logos/dance.svg");
 }
 
 .partners__slide-4 {
