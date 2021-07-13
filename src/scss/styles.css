@@ -120,10 +120,12 @@ footer .footer__copyright {
   justify-content: space-between;
   height: 10vh;
 }
+
 .main-nav--mobile .main-nav__hamburger--mobile {
-  margin: 0 0.6rem 0 0.5rem;
+  margin: 0 0.6rem 0  0.5rem;
   font-size: 2rem;
 }
+
 .main-nav--mobile .main-nav__hamburger--mobile input {
   display: block;
   width: 9vw;
@@ -135,21 +137,26 @@ footer .footer__copyright {
   opacity: 0;
   z-index: 4;
 }
+
 .main-nav--mobile .main-nav__hamburger--mobile input:checked ~ ul {
   transform: none;
 }
+
 .main-nav--mobile .main-nav__hamburger--mobile input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: #232323;
 }
+
 .main-nav--mobile .main-nav__hamburger--mobile input:checked ~ span:nth-last-child(3) {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
+
 .main-nav--mobile .main-nav__hamburger--mobile input:checked ~ span:nth-last-child(2) {
   transform: rotate(-45deg) translate(0, -1px);
 }
+
 .main-nav--mobile .main-nav__hamburger--mobile span {
   display: block;
   width: 8vw;
@@ -162,15 +169,19 @@ footer .footer__copyright {
   transform-origin: 4px 0px;
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
 }
+
 .main-nav--mobile .main-nav__hamburger--mobile span:first-child {
   transform-origin: 0% 0%;
 }
+
 .main-nav--mobile .main-nav__hamburger--mobile span:nth-last-child(2) {
   transform-origin: 0% 100%;
 }
+
 .main-nav--mobile .brand-name--icon {
   width: 12rem;
 }
+
 .main-nav--mobile .main-nav__list--mobile {
   display: flex;
   align-items: center;
@@ -192,14 +203,17 @@ footer .footer__copyright {
   transform: translate(-100%, 0);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
+
 .main-nav--mobile .main-nav__list--mobile li {
   padding: 10px 0;
   font-size: 22px;
 }
+
 .main-nav--mobile .parameters {
   padding: 0 1rem 0 2rem;
   font-size: 1.8rem;
 }
+
 .main-nav--mobile .main-nav_container--mobile {
   display: flex;
   align-items: center;
@@ -224,50 +238,38 @@ footer .footer__copyright {
   flex-direction: column;
   color: white;
 }
+
 .stack_first-block--Discopraphy h1 {
   text-transform: uppercase;
   font-size: 8vw;
   text-shadow: 2px 6px 2px rgba(0, 0, 0, 0.137);
 }
+
 .stack_first-block--Discopraphy .main-nav__list {
   display: flex;
   justify-content: space-around;
   width: 60vw;
 }
+
 .stack_first-block--Discopraphy .main-nav__list li {
   margin: 3vh 0;
   list-style-type: none;
 }
+
 .stack_first-block--Discopraphy .main-nav__list li i {
   font-size: 1.5vw;
   color: rgba(255, 214, 138, 0.808);
 }
+
 .stack_first-block--Discopraphy .main-nav__list li a {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
   font-size: 4vw;
 }
+
 .stack_first-block--Discopraphy .main-nav__list li:nth-child(3) {
-  opacity: 0.7;
-}
-
-.gallery {
-  display: flex;
-  flex-direction: column;
-  margin: 1rem 0;
-  align-items: center;
-  justify-content: center;
-}
-
-.gallery__img {
-  max-width: 100vw;
-  height: auto;
-  margin: 0.2rem 0;
-}
-
-.gallery--box {
-  background-color: hotpink;
+  opacity: 0.70;
 }
 
 /*-------------------------------------------------------subscribe------------------------------------------*/
@@ -275,6 +277,7 @@ footer .footer__copyright {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 #subscribe {
@@ -310,8 +313,6 @@ footer .footer__copyright {
   height: 10vw;
   border-radius: 0.4rem;
   background-color: #8121e0;
-  text-transform: uppercase;
-  color: white;
   border: none;
   cursor: pointer;
   margin-bottom: 4rem;
@@ -403,7 +404,7 @@ footer .footer__copyright {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("../../../your-resources/homepage-latest-releases-background.jpg");
+  background-image: url("../../../../your-resources/homepage-latest-releases-background.jpg");
   background-repeat: no-repeat;
   background-position: 57% 36%;
   width: 100vw;
@@ -448,18 +449,22 @@ footer .footer__copyright {
   justify-content: start;
   color: white;
 }
+
 #Single .stack__first-block {
   margin: 0 0 0 1rem;
 }
+
 #Single .stack__first-block .Subtitle {
   font-size: 7vw;
 }
+
 #Single .stack__first-block .title {
   color: white;
   -webkit-text-stroke-width: 1px;
   -webkit-text-fill-color: transparent;
   font-size: 10vw;
 }
+
 #Single .stack__first-block .playbar {
   display: flex;
   align-items: center;
@@ -467,6 +472,7 @@ footer .footer__copyright {
   margin: 9px 0 -24px 0;
   justify-content: space-between;
 }
+
 #Single .stack__first-block .playbar .playbar__bar {
   width: 52vw;
   background-color: white;
@@ -490,34 +496,41 @@ footer .footer__copyright {
   padding-bottom: 3vh;
   margin-bottom: 10vh;
 }
+
 .stack__second-block__rectangle .stack__second-block__title {
   text-align: center;
 }
+
 .stack__second-block__rectangle .stack__second-block__title .stack__second-block__subtitle {
   margin-bottom: 1rem;
   font-weight: 700;
   font-size: 8vw;
 }
+
 .stack__second-block__rectangle .stack__second-block__title .stack__second-block__description {
   font-size: 4.5vw;
   margin: 0 3vw 0 5vw;
 }
+
 .stack__second-block__rectangle .stack__second-block__block {
   justify-content: space-around;
   display: flex;
   width: 77vw;
   text-align: center;
 }
+
 .stack__second-block__rectangle .stack__second-block__block .stack__second-block__item .stack__second-block__subtitle {
   font-size: 11vw;
   font-weight: 500;
 }
+
 .stack__second-block__rectangle .stack__second-block__block .stack__second-block__item .stack__second-block__description {
   font-weight: 200;
   font-size: 2vw;
   text-transform: uppercase;
   font-size: 2vw;
 }
+
 .stack__second-block__rectangle .boutton {
   box-sizing: content-box;
   padding: 1rem;
@@ -541,6 +554,7 @@ footer .footer__copyright {
   width: 95vw;
   margin: auto;
 }
+
 .stack__second-block__image img {
   width: 95vw;
 }
@@ -557,25 +571,27 @@ footer .footer__copyright {
   color: #444444;
   font-size: 4vw;
 }
+
 .stack__second-block__comment .quotation {
   quotes: none;
   position: relative;
   margin: 0 15vh 0 9vh;
   font-size: 5vw;
   /* z-index: 1;
-   line-height: 4.5vh;
-   font-size: 6vw;*/
+            line-height: 4.5vh;
+            font-size: 6vw;*/
   /* &::before {
-    content: " '' ";
-    color: purple;
-    position: relative;
-    font-size: 10vh;
-    top: 6vh;
-    left: 6vw;
-    z-index: 0;
-    opacity: 0.5;
-   }*/
+            content: " '' ";
+            color: purple;
+            position: relative;
+            font-size: 10vh;
+            top: 6vh;
+            left: 6vw;
+            z-index: 0;
+            opacity: 0.5;
+           }*/
 }
+
 .stack__second-block__comment .quotation .quotation--mark {
   color: #8121e0;
   position: absolute;
@@ -598,57 +614,70 @@ footer .footer__copyright {
   background-color: #282828;
   color: white;
 }
+
 #fanbase .fanbase__galery {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
+
 #fanbase .fanbase__galery div .fanbase--galery__img--modified {
   display: flex;
   justify-content: center;
   width: 61vw;
 }
+
 #fanbase .fanbase__galery .fanbase-galery_item-3 {
   overflow: hidden;
   height: 11vw;
   transform: rotate(180deg);
 }
+
 #fanbase .fanbase__galery .fanbase-galery_item-3 img {
   z-index: 1;
   position: relative;
   width: 78vw;
   transform: rotate(180deg);
 }
+
 #fanbase .fanbase__galery .fanbase-galery_item-7 {
   overflow: hidden;
   height: 3vh;
   margin: 0 0 1vw -17vw;
 }
+
 #fanbase .fanbase__galery .fanbase-galery_item-4 {
   margin-left: -29vw;
 }
+
 #fanbase .fanbase__galery .fanbase-galery_item-4 img {
   z-index: 2;
   position: relative;
   margin-top: -2vh;
   width: 61vw;
 }
+
 #fanbase .fanbase__galery .fanbase-galery_item-5 {
   overflow: hidden;
   height: 3vh;
 }
+
 #fanbase .fanbase__galery .fanbase-galery_item-2 {
   height: 35.5vh;
 }
+
 #fanbase .fanbase__galery .fanbase-galery_item-9 {
   margin-left: 12vw;
 }
+
 #fanbase .fanbase__galery .fanbase-galery_item-9 img {
   width: 73vw;
 }
+
 #fanbase .fanbase__header {
   margin: 0 10vw 8vw 3vw;
 }
+
 #fanbase .fanbase__body {
   text-align: center;
   margin: 0 10vw 0 7vw;
@@ -656,26 +685,33 @@ footer .footer__copyright {
   padding-bottom: 6vh;
   padding-top: 0.5rem;
 }
+
 #fanbase .fanbase__body .fanbase-list {
   list-style-type: none;
 }
+
 #fanbase .fanbase--galery__img-1 {
   width: 78vw;
 }
+
 #fanbase .fanbase--galery__img-2 {
   width: 59vw;
 }
+
 #fanbase .fanbase--galery__img-3 {
   padding-bottom: 6vh;
   padding-top: 9vh;
   width: 50vw;
 }
+
 #fanbase .fanbase--galery__img-4 {
   width: 69vw;
 }
+
 #fanbase .fanbase--galery__img-5 {
   width: 89vw;
 }
+
 #fanbase img {
   border-radius: 10px;
 }
@@ -693,8 +729,6 @@ footer .footer__copyright {
   padding-top: 3rem;
   padding-bottom: 1rem;
   color: white;
-  margin: auto;
-  box-sizing: content-box;
 }
 
 .fanbase-list__item:last-child {
@@ -702,16 +736,14 @@ footer .footer__copyright {
 }
 
 .fanbase-list__item::before {
-  content: "";
-  width: 1rem;
-  height: 2rem;
+  content: '';
+  width: 1.25rem;
+  height: 1.875rem;
   background: transparent;
   border: 2px solid #8121e0;
   position: absolute;
-  left: 40vw;
+  left: 45%;
   top: 0px;
-  margin: auto;
-  box-sizing: content-box;
 }
 
 #tour-schedule {
@@ -736,18 +768,12 @@ footer .footer__copyright {
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-size: 0.8rem;
-  transition: 0ms;
+  transition: 00ms;
   line-height: 2rem;
 }
 
-#tour-schedule a:hover {
+#tour-schedule > a:hover {
   opacity: 0.5;
-}
-
-#tour-schedule i {
-  opacity: 0.9;
-  color: #444444;
-  font-size: 1.2rem;
 }
 
 #tour-schedule > ol, ul, li {
@@ -804,7 +830,6 @@ footer .footer__copyright {
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
   }
-
   .tour-schedule--container {
     display: flex;
     align-items: center;
@@ -817,6 +842,7 @@ footer .footer__copyright {
     margin: 1rem 2rem 2rem 2rem;
   }
 }
+
 .timeline {
   background: white;
   padding: 1.4rem;
@@ -841,7 +867,7 @@ footer .footer__copyright {
   color: #444444;
   width: 100%;
   border-bottom: 1px solid transparent;
-  transition: all 0.3s ease-out 0.1s;
+  transition: all .3s ease-out 0.1s;
 }
 
 #tour-schedule label:hover {
@@ -870,7 +896,7 @@ footer .footer__copyright {
 }
 
 .timeline-list__item:before {
-  content: "";
+  content: '';
   width: 20px;
   height: 20px;
   background: white;
@@ -944,6 +970,15 @@ footer .footer__copyright {
   text-decoration: none;
 }
 
+.timeline-list > i {
+  color: #444444;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-left: 0.1rem;
+}
+
 /*---------------------partner ------------------ */
 .partners__slider-container > a {
   text-decoration: none;
@@ -952,7 +987,7 @@ footer .footer__copyright {
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-size: 0.8rem;
-  transition: 0ms;
+  transition: 00ms;
   line-height: 2rem;
 }
 
@@ -1066,10 +1101,10 @@ footer .footer__copyright {
   transition: left 0s 0.75s;
 }
 
-[id^=partners__slide]:checked + .partners__slide {
+[id^="partners__slide"]:checked + .partners__slide {
   left: 0;
   z-index: 10;
-  transition: left 0.65s ease-out;
+  transition: left .65s ease-out;
 }
 
 .partners__slide-1 {
@@ -1125,7 +1160,6 @@ footer .footer__copyright {
     width: 100vw;
     height: auto;
   }
-
   .tickets-cards__slides {
     display: flex;
     overflow-x: auto;
@@ -1133,7 +1167,6 @@ footer .footer__copyright {
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
   }
-
   .tickets-cards__slides > div {
     scroll-snap-align: start;
     flex-shrink: 0;
@@ -1147,7 +1180,6 @@ footer .footer__copyright {
     justify-content: center;
     align-items: center;
   }
-
   .tickets-card {
     display: flex;
     align-items: center;
@@ -1158,7 +1190,6 @@ footer .footer__copyright {
     background: white;
     margin: 2rem 1rem 2rem 1rem;
   }
-
   .tickets-card__price {
     display: flex;
     align-items: center;
@@ -1166,7 +1197,6 @@ footer .footer__copyright {
     flex-direction: row;
     padding-bottom: 1rem;
   }
-
   .tickets-card__dollar {
     color: #282828;
     font-weight: 600;
@@ -1174,7 +1204,6 @@ footer .footer__copyright {
     padding-top: 1rem;
     margin: 0.2rem;
   }
-
   .tickets-card__number {
     color: #444444;
     font-family: "Poppins", sans-serif;
@@ -1185,18 +1214,15 @@ footer .footer__copyright {
     letter-spacing: 0.2rem;
     margin: 0.2rem;
   }
-
   .tickets-card__body {
     color: #444444;
     font-weight: 300;
     line-height: 2.2rem;
     padding-bottom: 2rem;
   }
-
   .tickets-card__title {
     color: #444444;
   }
-
   .tickets-card__button {
     padding: 1.5rem 2.5rem 1.5rem 2.5rem;
     margin: 1rem;
@@ -1207,12 +1233,12 @@ footer .footer__copyright {
     border-radius: 5px;
     width: fit-content;
   }
-
   button:hover {
     background-color: #8121e0;
     color: white;
   }
 }
+
 @media (min-width: 480px) {
   .tickets-cards__slider {
     display: flex;
@@ -1223,7 +1249,6 @@ footer .footer__copyright {
     width: 100vw;
     height: auto;
   }
-
   .tickets-cards__slides {
     display: flex;
     overflow-x: auto;
@@ -1231,7 +1256,6 @@ footer .footer__copyright {
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
   }
-
   .tickets-cards__slides > div {
     scroll-snap-align: start;
     flex-shrink: 0;
@@ -1246,7 +1270,6 @@ footer .footer__copyright {
     align-items: center;
     border-right: #444444 0.1rem solid;
   }
-
   .tickets-card {
     display: flex;
     align-items: center;
@@ -1257,7 +1280,6 @@ footer .footer__copyright {
     background: white;
     margin: 2rem 1rem 2rem 1rem;
   }
-
   .tickets-card__price {
     display: flex;
     align-items: center;
@@ -1265,7 +1287,6 @@ footer .footer__copyright {
     flex-direction: row;
     padding-bottom: 1rem;
   }
-
   .tickets-card__dollar {
     color: #282828;
     font-weight: 600;
@@ -1273,7 +1294,6 @@ footer .footer__copyright {
     padding-top: 1rem;
     margin: 0.2rem;
   }
-
   .tickets-card__number {
     color: #444444;
     font-family: "Poppins", sans-serif;
@@ -1284,18 +1304,15 @@ footer .footer__copyright {
     letter-spacing: 0.2rem;
     margin: 0.2rem;
   }
-
   .tickets-card__body {
     color: #444444;
     font-weight: 300;
     line-height: 2.2rem;
     padding-bottom: 2rem;
   }
-
   .tickets-card__title {
     color: #444444;
   }
-
   .tickets-card__button {
     padding: 1.5rem 2.5rem 1.5rem 2.5rem;
     margin: 1rem;
@@ -1306,12 +1323,12 @@ footer .footer__copyright {
     border-radius: 5px;
     width: fit-content;
   }
-
   button:hover {
     background-color: #8121e0;
     color: white;
   }
 }
+
 @media (min-width: 1025px) {
   .tickets-cards__slider {
     display: flex;
@@ -1322,7 +1339,6 @@ footer .footer__copyright {
     width: 100vw;
     height: auto;
   }
-
   .tickets-cards__slides {
     display: flex;
     overflow-x: auto;
@@ -1330,7 +1346,6 @@ footer .footer__copyright {
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
   }
-
   .tickets-cards__slides > div {
     scroll-snap-align: start;
     flex-shrink: 0;
@@ -1345,7 +1360,6 @@ footer .footer__copyright {
     align-items: center;
     border-right: #444444 0.1rem solid;
   }
-
   .tickets-card {
     display: flex;
     align-items: center;
@@ -1356,7 +1370,6 @@ footer .footer__copyright {
     background: white;
     margin: 2rem 1rem 2rem 1rem;
   }
-
   .tickets-card__price {
     display: flex;
     align-items: center;
@@ -1364,7 +1377,6 @@ footer .footer__copyright {
     flex-direction: row;
     padding-bottom: 1rem;
   }
-
   .tickets-card__dollar {
     color: #282828;
     font-weight: 600;
@@ -1372,7 +1384,6 @@ footer .footer__copyright {
     padding-top: 1rem;
     margin: 0.2rem;
   }
-
   .tickets-card__number {
     color: #444444;
     font-family: "Poppins", sans-serif;
@@ -1383,34 +1394,31 @@ footer .footer__copyright {
     letter-spacing: 0.2rem;
     margin: 0.2rem;
   }
-
   .tickets-card__body {
     color: #444444;
     font-weight: 300;
     line-height: 2.2rem;
     padding-bottom: 2rem;
   }
-
   .tickets-card__title {
     color: #444444;
   }
-
   .tickets-card__button {
-    text-align: center;
     padding: 1.5rem 2.5rem 1.5rem 2.5rem;
-    font-size: 0.8rem;
+    margin: 1rem;
+    font-size: 0.5rem;
     background-color: white;
     color: #282828;
     font-weight: 600;
     border-radius: 5px;
     width: fit-content;
   }
-
   button:hover {
     background-color: #8121e0;
     color: white;
   }
 }
+
 /* ------------------- news --------------------------*/
 #news {
   display: flex;
@@ -1421,20 +1429,12 @@ footer .footer__copyright {
   margin-top: 2.5rem;
 }
 
-#news a:hover {
-  color: white;
-}
-
 .news--container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   padding-bottom: 1rem;
-}
-
-#news .news__card--link {
-  font-size: 0.8rem;
 }
 
 @media (max-width: 480px) {
@@ -1447,7 +1447,6 @@ footer .footer__copyright {
     width: 100vw;
     height: auto;
   }
-
   .news-cards__slides {
     display: flex;
     overflow-x: auto;
@@ -1455,7 +1454,6 @@ footer .footer__copyright {
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
   }
-
   .news-cards__slides > div {
     scroll-snap-align: start;
     flex-shrink: 0;
@@ -1470,16 +1468,13 @@ footer .footer__copyright {
     flex-direction: column;
     justify-content: center;
   }
-
   .news__card {
     padding: 0 1rem 1rem 0.5rem;
   }
-
   .news__card--body {
     padding: 1rem 1rem 1rem 2rem;
     text-align: left;
   }
-
   .news__card--title {
     padding: 1rem 1rem 0.5rem 2rem;
     line-height: 2rem;
@@ -1487,14 +1482,12 @@ footer .footer__copyright {
     font-size: 1.2rem;
     font-weight: 700;
   }
-
   .news__title {
     text-align: center;
     padding: 0.5rem;
     padding-top: 1rem;
     font-size: 2rem;
   }
-
   .news__card--date {
     width: max-content;
     background-color: #8121e0;
@@ -1508,8 +1501,7 @@ footer .footer__copyright {
     font-weight: 900;
     font-size: 0.8rem;
   }
-
-  #news .news__card--link {
+  .news__card--link {
     width: 100%;
     align-self: left;
     padding: 2rem;
@@ -1519,7 +1511,6 @@ footer .footer__copyright {
     color: #282828;
     line-height: 4rem;
   }
-
   .news__card:hover {
     background-image: url("your-resources/homepage-news-background.jpg");
     color: white;
@@ -1530,17 +1521,8 @@ footer .footer__copyright {
     margin: auto;
     width: 100vw;
   }
-
-  #news .news__card:hover .news__card--link {
-    color: white;
-    margin: auto;
-  }
-
-  .news__card:hover .news__card--link > i {
-    color: white;
-    margin: auto;
-  }
 }
+
 @media (min-width: 480px) {
   .news-cards__slider {
     display: flex;
@@ -1551,7 +1533,6 @@ footer .footer__copyright {
     width: 100vw;
     height: auto;
   }
-
   .news-cards__slides {
     display: flex;
     overflow-x: auto;
@@ -1559,7 +1540,6 @@ footer .footer__copyright {
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
   }
-
   .news-cards__slides > div {
     scroll-snap-align: start;
     flex-shrink: 0;
@@ -1574,11 +1554,9 @@ footer .footer__copyright {
     flex-direction: column;
     justify-content: center;
   }
-
   .news__card {
     padding: 0 1rem 0rem 1rem;
   }
-
   .news__card--body {
     padding: 1rem 2rem 1rem 2rem;
     text-align: left;
@@ -1586,7 +1564,6 @@ footer .footer__copyright {
     line-height: normal;
     font-size: 1rem;
   }
-
   .news__card--title {
     padding: 2rem 2rem 1rem 2rem;
     line-height: 2rem;
@@ -1596,14 +1573,12 @@ footer .footer__copyright {
     height: 8rem;
     font-weight: 700;
   }
-
   .news__title {
     text-align: center;
     padding: 0.5rem;
     padding-top: 1rem;
     font-size: 1.8rem;
   }
-
   .news__card--date {
     width: max-content;
     background-color: #8121e0;
@@ -1617,8 +1592,7 @@ footer .footer__copyright {
     font-weight: 900;
     font-size: 0.8rem;
   }
-
-  #news .news__card--link {
+  .news__card--link {
     width: 100%;
     align-self: left;
     padding: 2rem;
@@ -1628,7 +1602,6 @@ footer .footer__copyright {
     color: #282828;
     line-height: 4rem;
   }
-
   .news__card:hover {
     background-image: url("your-resources/homepage-news-background.jpg");
     color: white;
@@ -1639,17 +1612,8 @@ footer .footer__copyright {
     margin: auto;
     width: 50vw;
   }
-
-  #news .news__card:hover .news__card--link {
-    color: white;
-    margin: auto;
-  }
-
-  .news__card:hover .news__card--link > i {
-    color: white;
-    margin: auto;
-  }
 }
+
 @media (min-width: 1025px) {
   .news-cards__slider {
     display: flex;
@@ -1660,7 +1624,6 @@ footer .footer__copyright {
     width: 100vw;
     height: auto;
   }
-
   .news-cards__slides {
     display: flex;
     overflow-x: auto;
@@ -1668,7 +1631,6 @@ footer .footer__copyright {
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
   }
-
   .news-cards__slides > div {
     scroll-snap-align: start;
     flex-shrink: 0;
@@ -1683,11 +1645,9 @@ footer .footer__copyright {
     flex-direction: column;
     justify-content: center;
   }
-
   .news__card {
     padding: 0 1rem 0rem 1rem;
   }
-
   .news__card--body {
     padding: 1rem 2rem 1rem 2rem;
     text-align: left;
@@ -1695,7 +1655,6 @@ footer .footer__copyright {
     line-height: normal;
     font-size: 1rem;
   }
-
   .news__card--title {
     padding: 2rem 2rem 1rem 2rem;
     line-height: 2rem;
@@ -1705,14 +1664,12 @@ footer .footer__copyright {
     height: 8rem;
     font-weight: 700;
   }
-
   .news__title {
     text-align: center;
     padding: 0.5rem;
     padding-top: 1rem;
     font-size: 1.8rem;
   }
-
   .news__card--date {
     width: max-content;
     background-color: #8121e0;
@@ -1726,8 +1683,7 @@ footer .footer__copyright {
     font-weight: 900;
     font-size: 0.8rem;
   }
-
-  #news .news__card--link {
+  .news__card--link {
     width: 100%;
     align-self: left;
     padding: 2rem;
@@ -1737,7 +1693,6 @@ footer .footer__copyright {
     color: #282828;
     line-height: 4rem;
   }
-
   .news__card:hover {
     background-image: url("../../../../your-resources/homepage-news-background.jpg");
     color: white;
@@ -1748,17 +1703,70 @@ footer .footer__copyright {
     margin: auto;
     width: 33vw;
   }
+}
 
-  #news .news__card:hover .news__card--link {
-    color: white;
-    margin: auto;
-  }
+.news__card:hover .news__card--link {
+  color: white;
+  margin: auto;
+}
 
-  .news__card:hover .news__card--link > i {
+.news__card:hover .news__card--link > i {
+  color: white;
+  margin: auto;
+}
+
+.tour-schedule__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  background-image: url("your-resources/banner-img.jpg");
+  background-size: 400%;
+  background-position: 50% 30%;
+  background-repeat: no-repeat;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  width: 100vw;
+  height: fit-content;
+}
+
+.tour-schedule__title > h1 {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (min-width: 480px) {
+  .tour-schedule__title > h1 {
+    font-size: 1.8rem;
     color: white;
-    margin: auto;
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
   }
 }
+
+.tour-schedule__mininav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 0.8rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.tour-schedule__home {
+  font-weight: 500;
+  padding: 1rem;
+}
+
+.tour-schedule__faded {
+  opacity: 0.5;
+  padding: 1rem;
+}
+
 #tour-schedule {
   display: flex;
   align-items: center;
@@ -1775,11 +1783,11 @@ footer .footer__copyright {
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-size: 0.8rem;
-  transition: 0ms;
+  transition: 00ms;
   line-height: 2rem;
 }
 
-#tour-schedule a:hover {
+#tour-schedule > a:hover {
   opacity: 0.5;
 }
 
@@ -1790,12 +1798,6 @@ footer .footer__copyright {
 
 #tour-schedule > input {
   display: none;
-}
-
-#tour-schedule i {
-  opacity: 0.9;
-  color: #444444;
-  font-size: 1.2rem;
 }
 
 #timeline-content {
@@ -1843,7 +1845,6 @@ footer .footer__copyright {
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
   }
-
   .tour-schedule--container {
     display: flex;
     align-items: center;
@@ -1855,14 +1856,13 @@ footer .footer__copyright {
     border-top-right-radius: 15px;
     margin: 1rem 2rem 2rem 2rem;
   }
-
   .tour-schedule__title {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     flex-direction: column;
-    background-image: url("your-resources/banner-img.jpg");
+    background-image: url("../../../../your-resources/banner-img.jpg");
     background-size: 400%;
     background-position: 50% 30%;
     background-repeat: no-repeat;
@@ -1872,6 +1872,7 @@ footer .footer__copyright {
     margin-bottom: 5rem;
   }
 }
+
 .timeline {
   background: white;
   padding: 1.4rem;
@@ -1896,7 +1897,7 @@ footer .footer__copyright {
   color: #444444;
   width: 100%;
   border-bottom: 1px solid transparent;
-  transition: all 0.3s ease-out 0.1s;
+  transition: all .3s ease-out 0.1s;
 }
 
 #tour-schedule label:hover {
@@ -1925,7 +1926,7 @@ footer .footer__copyright {
 }
 
 .timeline-list__item:before {
-  content: "";
+  content: '';
   width: 20px;
   height: 20px;
   background: white;
@@ -1999,6 +2000,15 @@ footer .footer__copyright {
   text-decoration: none;
 }
 
+i {
+  color: #444444;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-left: 0.1rem;
+}
+
 @media (min-width: 480px) {
   .footer {
     display: flex;
@@ -2009,33 +2019,27 @@ footer .footer__copyright {
     margin: 0px;
     padding: 2rem;
   }
-
   footer .brand-name {
     margin-bottom: 1rem;
   }
-
   .footer ul {
     list-style: none;
     margin: 0;
     padding: 0;
   }
-
   .footer .social__footer {
     display: flex;
     flex-direction: row;
     padding: 1rem;
   }
-
   .footer li {
     color: white;
     text-decoration: none;
   }
-
   footer .relative-link__footer {
     display: flex;
     flex-direction: row;
   }
-
   .social__footer--item {
     display: flex;
     justify-content: center;
@@ -2048,7 +2052,6 @@ footer .footer__copyright {
     margin: 0.5rem;
     font-size: 1rem;
   }
-
   .relative-link__footer--item {
     display: flex;
     align-items: center;
@@ -2056,16 +2059,13 @@ footer .footer__copyright {
     font-size: 1rem;
     margin: 0.5rem;
   }
-
   .relative-link__footer--item a {
     color: white;
     text-decoration: none;
   }
-
   .social__footer--item a {
     color: white;
   }
-
   .footer__upbtn {
     position: fixed;
     right: 0;
@@ -2079,21 +2079,17 @@ footer .footer__copyright {
     font-size: 0.8rem;
     scroll-behavior: smooth;
   }
-
   footer .footer__copyright {
     color: #444444;
     font-size: 0.9rem;
   }
-
   .header {
     max-width: 1020px;
     width: 100vw;
   }
-
   .main-nav--mobile .parameters {
     padding: 0 2rem 0 3rem;
   }
-
   .stack_first-block--Discopraphy {
     height: 30vh;
   }
@@ -2111,37 +2107,16 @@ footer .footer__copyright {
     font-size: 2vw;
   }
   .stack_first-block--Discopraphy .main-nav__list li:nth-child(3) {
-    opacity: 0.7;
+    opacity: 0.70;
   }
-
   .Latestrelease_discography .Latestrelease__block {
     display: flex !important;
     flex-wrap: wrap;
     flex-direction: row !important;
   }
-
   .main-nav__logo {
     margin-left: 1vw;
   }
-
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(29vw, 1fr));
-    gap: 1rem;
-    margin: 1rem;
-    align-self: center;
-    align-content: center;
-    justify-content: center;
-  }
-
-  .gallery--box {
-    width: 30vw;
-  }
-
-  .gallery__img {
-    width: 30vw;
-  }
-
   #subscribe {
     display: flex;
     flex-direction: column;
@@ -2153,13 +2128,11 @@ footer .footer__copyright {
     width: 100vw;
     height: auto;
   }
-
   #subscribe .subscribe__title {
     color: white;
     margin-top: 3rem;
     text-align: center;
   }
-
   #subscribe .subscribe__form {
     display: flex;
     flex-direction: row;
@@ -2167,7 +2140,6 @@ footer .footer__copyright {
     justify-content: center;
     margin-bottom: 3rem;
   }
-
   #subscribe .subscribe__form--btn {
     margin: 1rem;
     font-size: 1.5rem;
@@ -2178,7 +2150,6 @@ footer .footer__copyright {
     border: none;
     cursor: pointer;
   }
-
   #subscribe .subscribe__form--mail {
     width: 50vw;
     height: 7vw;
@@ -2186,7 +2157,6 @@ footer .footer__copyright {
     font-size: 1.5rem;
     padding: 1rem;
   }
-
   /* --------------------recent news--------------*/
   #news {
     display: flex;
@@ -2197,30 +2167,25 @@ footer .footer__copyright {
     height: auto;
     padding: 3rem 0.5rem;
   }
-
   #news .news__carousel {
     display: flex;
     flex-direction: row;
   }
-
   #news .news__title {
     margin: 4rem auto;
     padding: 4rem auto;
   }
-
   #news .news__block {
     padding: 0 4rem 3rem 0.5rem;
     margin: 0.5rem;
     padding: 0.5rem;
     border-radius: 0.5rem;
   }
-
   #news .news__block:hover {
     background-image: url("/your-resources/homepage-news-background.jpg");
     background-repeat: no-repeat;
     color: white;
   }
-
   #news .news__block--date {
     width: max-content;
     background-color: #8121e0;
@@ -2231,25 +2196,21 @@ footer .footer__copyright {
     color: white;
     font-weight: 900;
   }
-
   #news .news__block--title {
     line-height: 1.8rem;
     font-weight: 300;
     margin: 1rem 0 1rem 0;
   }
-
   #news .news__block--info {
     line-height: 1.8rem;
     font-weight: 300;
     margin-bottom: 2rem;
   }
-
   #news a {
     color: black;
     text-decoration: none;
     font-size: 1.5rem;
   }
-
   /*---------------------------gallery--------------------*/
   #gallery .galery--container {
     display: flex;
@@ -2257,12 +2218,10 @@ footer .footer__copyright {
     flex-wrap: wrap;
     overflow: hidden;
   }
-
   #gallery .galery--container img {
     max-width: 25vw;
     height: auto;
   }
-
   /*-----------ticket--------------*/
   #tickets {
     width: 100vw;
@@ -2270,7 +2229,6 @@ footer .footer__copyright {
     display: flex;
     flex-direction: row;
   }
-
   #tickets .tickets--container {
     display: flex;
     flex-direction: column;
@@ -2278,11 +2236,9 @@ footer .footer__copyright {
     justify-content: center;
     padding: 3rem 0;
   }
-
   #tickets .tickets__title {
     margin-bottom: 3rem;
   }
-
   #tickets .tickets-cards {
     display: flex;
     align-items: center;
@@ -2290,7 +2246,6 @@ footer .footer__copyright {
     flex-direction: row;
     width: 100vw;
   }
-
   #tickets .tickets-card {
     display: flex;
     flex-direction: column;
@@ -2300,32 +2255,27 @@ footer .footer__copyright {
     padding: 1rem;
     margin: 1rem;
   }
-
   #tickets .tickets-card__title {
     font-weight: 200;
     text-align: center;
     letter-spacing: 0.1rem;
     margin-bottom: 1rem;
   }
-
   #tickets .tickets-card__price {
     display: flex;
     align-content: center;
     justify-content: center;
     position: relative;
   }
-
   #tickets .tickets-card__dollar {
     font-weight: 800;
     position: relative;
     top: 10px;
   }
-
   #tickets .tickets-card__number {
     font-size: 3rem;
     font-weight: 400;
   }
-
   #tickets .tickets-card__body ul {
     list-style: none;
     display: flex;
@@ -2334,12 +2284,10 @@ footer .footer__copyright {
     justify-content: center;
     color: #444444;
   }
-
   #tickets .tickets-card__body ul li {
     padding: 0.2rem;
     margin: 0.2rem;
   }
-
   #tickets .tickets-card__button {
     margin-top: 1rem;
     padding: 1rem 2rem 1rem 2em;
@@ -2347,31 +2295,26 @@ footer .footer__copyright {
     border: 0.1rem solid black;
     border-radius: 0.3rem;
   }
-
   #tickets .tickets-card__button:hover {
     color: white;
     background: #8121e0;
     border: #8121e0;
     cursor: pointer;
   }
-
   /*----------------------------------latest release-----------------------*/
   #Latestrelease .Latestrelease__block {
     display: grid;
     grid-template-columns: 2, minmax(auto, 50vw);
   }
-
   #Latestrelease .Latestrelease__block--texte {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-self: center;
   }
-
   #Latestrelease .Latestrelease__block--texte .Latestrelease__block--title {
     margin: 3rem 0 2rem 0;
   }
-
   #Latestrelease .Latestrelease__block--texte .Latestrelease__block--desc {
     color: #444444;
     text-justify: center;
@@ -2381,7 +2324,6 @@ footer .footer__copyright {
     line-height: 2rem;
     font-weight: lighter;
   }
-
   #Latestrelease .card {
     display: flex;
     flex-direction: column;
@@ -2391,25 +2333,21 @@ footer .footer__copyright {
     max-width: 45vw;
     height: auto;
   }
-
   #Latestrelease .card .card__image img {
     max-width: 42vw;
     height: auto;
   }
-
   #Latestrelease .card .card__copy {
     padding-top: 1rem;
     font-size: 2rem;
     font-weight: 500;
   }
-
   #Latestrelease .card p {
     color: #444444;
     padding-top: 0.5rem;
     font-weight: 400;
     font-size: 1.5rem;
   }
-
   /*--------------------------------------------disco------------------------*/
   #listen {
     display: flex;
@@ -2422,21 +2360,18 @@ footer .footer__copyright {
     width: 100vw;
     height: 40vw;
   }
-
   #listen .stack__third-block {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-
   #listen .stack__third-block .stack__third-block__title {
     text-align: center;
     padding: 1rem;
     color: white;
     font-weight: 600;
   }
-
   #listen a {
     text-align: center;
     font-weight: 600;
@@ -2450,6 +2385,7 @@ footer .footer__copyright {
     cursor: pointer;
   }
 }
+
 @media (min-width: 1025px) {
   .footer {
     display: flex;
@@ -2460,29 +2396,24 @@ footer .footer__copyright {
     margin: 0px;
     padding: 2rem;
   }
-
   .footer ul {
     list-style: none;
     margin: 0;
     padding: 0;
   }
-
   .footer .social__footer {
     display: flex;
     flex-direction: row;
     padding: 1rem;
   }
-
   .footer li {
     color: white;
     text-decoration: none;
   }
-
   footer .relative-link__footer {
     display: flex;
     flex-direction: row;
   }
-
   .social__footer--item {
     display: flex;
     justify-content: center;
@@ -2495,7 +2426,6 @@ footer .footer__copyright {
     margin: 0.5rem;
     font-size: 1rem;
   }
-
   .relative-link__footer--item {
     display: flex;
     align-items: center;
@@ -2503,16 +2433,13 @@ footer .footer__copyright {
     font-size: 1rem;
     margin: 0.5rem;
   }
-
   .relative-link__footer--item a {
     color: white;
     text-decoration: none;
   }
-
   .social__footer--item a {
     color: white;
   }
-
   .footer__upbtn {
     position: fixed;
     right: 0;
@@ -2526,16 +2453,13 @@ footer .footer__copyright {
     font-size: 0.8rem;
     scroll-behavior: smooth;
   }
-
   footer .footer__copyright {
     color: #444444;
     font-size: 0.9rem;
   }
-
   .main-nav--mobile {
     display: none;
   }
-
   .main-nav {
     display: flex;
     position: absolute;
@@ -2577,7 +2501,6 @@ footer .footer__copyright {
     justify-content: center;
     opacity: 0.5;
   }
-
   .stack_first-block--Discopraphy {
     padding-top: 51vh;
     padding-bottom: 32vh;
@@ -2599,28 +2522,19 @@ footer .footer__copyright {
   .stack_first-block--Discopraphy .main-nav__list .main-nav__item i {
     font-size: 0.5vw;
   }
-
   .stack_first-block--Discopraphy {
     background-position-x: -9vw;
     background-position-y: -30vh;
     background-size: 120vw 163vh;
     background-repeat: no-repeat;
   }
-
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(22vw, 1fr));
-    gap: 1rem;
-    margin: 1rem;
+  #Latestrelease .card .card__image img {
+    max-width: 29vw;
+    height: auto;
   }
-
-  .gallery--box {
-    width: 22vw;
-  }
-
-  .gallery__img {
-    width: 22vw;
+  #Latestrelease .Latestrelease__block {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
   }
 }
-
-/*# sourceMappingURL=style.css.map */

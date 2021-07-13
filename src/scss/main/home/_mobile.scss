@@ -4,7 +4,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    // font-family: 'Poppins', sans-serif;
 }
 
  #subscribe {
@@ -40,6 +40,8 @@
     height: 10vw;
     border-radius: 0.4rem;
     background-color:#8121e0;
+    text-transform: $maj;
+    color: white;
     border: none;
     cursor: pointer;
     margin-bottom: 4rem;
@@ -130,7 +132,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("../../../../your-resources/homepage-latest-releases-background.jpg");
+  background-image: url("../../../your-resources/homepage-latest-releases-background.jpg");
   background-repeat: no-repeat;
   background-position: 57% 36%;
   width: 100vw;
@@ -475,6 +477,8 @@
     padding-top: 3rem;
     padding-bottom: 1rem;
     color: white;
+    margin: auto;
+    box-sizing: content-box;
   }
   
   .fanbase-list__item:last-child{
@@ -486,13 +490,18 @@
 
     &::before{
         content: '';
-        width: 1.25rem;
-        height: 1.875rem;
+        width: 1rem;
+        height: 2rem;
         background: transparent;
         border: 2px solid $purple;
         position: absolute;
-        left: 45%;
+        left: 40vw;
         top: 0px;
+        margin: auto;
+        box-sizing: content-box;
+      
+      
+      
     }
 }
 
@@ -521,10 +530,18 @@
   line-height: 2rem;
   }
   
-  #tour-schedule>a:hover {
+  #tour-schedule a:hover {
   opacity:0.5;
   }
+
+  #tour-schedule i {
+    opacity:0.9;
+    color: $grey;
+    font-size: 1.2rem;
+    }
   
+  
+
   #tour-schedule>ol,ul,li {
   padding: 0;
   list-style-type: none;
@@ -535,15 +552,10 @@
   }
   
   
-  
-  
-  
   #timeline-content{
     padding-top:1.5rem;
     padding-bottom: 0.5rem;
   }
-  
-  
   
   
   .tour-schedule--container {
@@ -734,15 +746,12 @@
     text-decoration: none;
   
   }
+
   
- .timeline-list > i{
-    color: $grey;
-    font-family: $font;
-    font-weight: 600;
-    font-size: 1.2rem;
-    font-weight: 300;
-    padding-left: 0.1rem;
-  }
+  
+  
+  
+  
 
 /*---------------------partner ------------------ */ 
 
@@ -1195,9 +1204,9 @@
         }
         
         .tickets-card__button{
+          text-align: center;
           padding: 1.5rem 2.5rem 1.5rem 2.5rem;
-          margin: 1rem;
-          font-size: $small;
+          font-size: $medium;
           background-color : $white; 
           color : $darkgrey;
           font-weight: 600;
@@ -1221,11 +1230,20 @@
             margin: 0.5rem;
             margin-top: 2.5rem;
         }
+
+
+        #news a:hover {
+         color:white;
+        }
         
         .news--container{
           @include flex;
           flex-direction: column;
           padding-bottom: 1rem;
+        }
+
+        #news .news__card--link {
+        font-size: $medium;
         }
         
         
@@ -1299,7 +1317,7 @@
           font-size: 0.8rem;
            
         }
-        .news__card--link {
+        #news .news__card--link {
           width:100%;
           align-self: left;
           padding: 2rem;
@@ -1310,6 +1328,8 @@
           line-height: 4rem;
         
         }
+
+        
         .news__card:hover {
           background-image:url("your-resources/homepage-news-background.jpg"); 
           color:white;
@@ -1320,7 +1340,14 @@
         margin: auto;
         width: 100vw;
         }
-        
+        #news .news__card:hover .news__card--link {
+          color:white;   
+          margin: auto;     
+        }
+        .news__card:hover .news__card--link >i {
+          color:white;   
+          margin: auto;     
+        }
         }
         
         
@@ -1399,7 +1426,7 @@
           font-size: 0.8rem;
            
         }
-        .news__card--link {
+        #news .news__card--link {
           width:100%;
           align-self: left;
           padding: 2rem;
@@ -1420,7 +1447,14 @@
         margin: auto;
         width: 50vw;
         }
-        
+        #news .news__card:hover .news__card--link {
+          color:white;   
+          margin: auto;     
+        }
+        .news__card:hover .news__card--link >i {
+          color:white;   
+          margin: auto;     
+        }
           }
           
         
@@ -1500,7 +1534,7 @@
             font-size: 0.8rem;
              
           }
-          .news__card--link {
+          #news .news__card--link {
             width:100%;
             align-self: left;
             padding: 2rem;
@@ -1521,19 +1555,15 @@
         margin: auto;
         width: 33vw;
           }
+          #news .news__card:hover .news__card--link {
+            color:white;   
+            margin: auto;     
+          }
+          .news__card:hover .news__card--link >i {
+            color:white;   
+            margin: auto;     
+          }
         
-            }
-            
-          
-          
-        
-        
-            .news__card:hover .news__card--link {
-              color:white;   
-              margin: auto;     
-            }
-            .news__card:hover .news__card--link >i {
-              color:white;   
-              margin: auto;     
             }
 
+          
