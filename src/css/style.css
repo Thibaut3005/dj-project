@@ -371,7 +371,7 @@ footer .footer__copyright {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("/your-resources/homepage-footer-background.jpg");
+  background-image: url("../../your-resources/homepage-footer-background.jpg");
   background-repeat: no-repeat;
   background-position: 31% 80%;
   width: 100vw;
@@ -492,7 +492,7 @@ footer .footer__copyright {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("../../../your-resources/homepage-latest-releases-background.jpg");
+  background-image: url("../../your-resources/homepage-latest-releases-background.jpg");
   background-repeat: no-repeat;
   background-position: 57% 36%;
   width: 100vw;
@@ -527,7 +527,7 @@ footer .footer__copyright {
 }
 
 #Single {
-  background-image: url("../../../your-resources/homapage-banner-img.jpg");
+  background-image: url("../../your-resources/homapage-banner-img.jpg");
   background-repeat: no-repeat;
   background-position: -5vw 0vw;
   background-size: 161vw 51vh;
@@ -1066,7 +1066,7 @@ footer .footer__copyright {
   margin-top: 2rem;
   margin-bottom: 4rem;
   scrollbar-color: transparent transparent;
-  background-image: url("../../../../your-resources/homepage-sponsors-background.jpg");
+  background-image: url("../../your-resources/homepage-sponsors-background.jpg");
   background-size: 400%;
   background-position: 50% 30%;
   background-repeat: no-repeat;
@@ -1166,15 +1166,15 @@ footer .footer__copyright {
 }
 
 .partners__slide-2 {
-  background-image: url("../../../../logos/cube.svg");
+  background-image: url("../../logos/cube.svg");
 }
 
 .partners__slide-3 {
-  background-image: url("../../../../logos/dance.svg");
+  background-image: url("../../logos/dance.svg");
 }
 
 .partners__slide-4 {
-  background-image: url("../../../../logos/web.svg");
+  background-image: url("../../logos/web.svg");
 }
 
 /* --------------------Tickets -----------------------        */
@@ -1610,7 +1610,7 @@ footer .footer__copyright {
   }
 
   .news__card:hover {
-    background-image: url("your-resources/homepage-news-background.jpg");
+    background-image: url("../../your-resources/homepage-news-background.jpg");
     color: white;
     border-radius: 5px;
     background-size: 400%;
@@ -1719,7 +1719,7 @@ footer .footer__copyright {
   }
 
   .news__card:hover {
-    background-image: url("your-resources/homepage-news-background.jpg");
+    background-image: url("../../your-resources/homepage-news-background.jpg");
     color: white;
     border-radius: 5px;
     background-size: 400%;
@@ -1828,7 +1828,7 @@ footer .footer__copyright {
   }
 
   .news__card:hover {
-    background-image: url("../../../../your-resources/homepage-news-background.jpg");
+    background-image: url("../../your-resources/homepage-news-background.jpg");
     color: white;
     border-radius: 5px;
     background-size: 400%;
@@ -2246,6 +2246,20 @@ footer .footer__copyright {
   .profil__descritpion--contact {
     padding: 1rem;
     margin: 1rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .discover {
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    align-items: center;
+    justify-content: center;
+    background-color: #bdbcbc;
+    padding: 2rem;
+  }
+
+  .discover__card {
     display: flex;
     flex-direction: row;
   }
@@ -2944,15 +2958,5 @@ footer .footer__copyright {
     box-sizing: content-box;
   }
 }
-
-
-#profil .discover--title{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-
 
 /*# sourceMappingURL=style.css.map */
