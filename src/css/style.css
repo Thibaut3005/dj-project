@@ -2761,6 +2761,11 @@ footer .footer__copyright {
     grid: 30vw 30vw 30vw;
   }
 
+  .profil__description {
+    display: flex;
+    flex-direction: row;
+  }
+
   .stack_first-block--Discopraphy {
     background-position-x: -9vw;
     background-position-y: -30vh;
