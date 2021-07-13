@@ -63,12 +63,16 @@
     }
     .stack__second-block__title{
         grid-column: 2/2;
+        grid-row: 1/1;
     }
     .stack__second-block__comment{
         grid-column: 2/2;
         font-SIZE: 1vw;
         display: block;
         width: 45vw;
+        grid-row: 1/1;
+        margin-top: 6rem;
+    
         q{
             font-SIZE: 2vw;
             margin: 1rem 0;
@@ -83,6 +87,9 @@
 }
 
 #fanbase {
+    padding: 8vw 0;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
     .fanbase-galery_item-5, .fanbase-galery_item-3, .fanbase-galery_item-7{
         display : none;
     }
@@ -113,7 +120,7 @@
         img {
             z-index: 2;
             position: static;
-            margin-top: -2vh;
+            margin-top: 0;
             width: 14vw;
         }
     
@@ -131,10 +138,18 @@
     .fanbase-galery_item-5{
         overflow: hidden;
         height: 3vh;
+        img{
+            width: 14vw;
+           
+        }
     
     }
     .fanbase-galery_item-2{
         height: 35.5vh;
+        img{
+            width: 14vw;
+           
+        }
     }
 
     .fanbase-galery_item-9{
@@ -147,11 +162,36 @@
     }
 
     div[class^='fanbase-galery_item'],div[class*='fanbase-galery_item']{
-        margin: 0;
-        position:static;
-        height: 62vw;
+        
+        img {
+            position:static !important;
+            width: 14vw !important;
+        }
+    
+       
+    }
+    div {
+        
+        img {
+            width: 14vw !important;
+        }
+    }
+    .fanbase__header{
+        grid-column: 2/2;
+        grid-row: 1/1;
+    }
+    .fanbase__body {
+        grid-column: 2/2;
+        grid-row: 1/1;
+        margin-top: 9vw;
+
     }
 
-
 }
+#tour-schedule{
+    margin-top: 0 ;
+}
+
+
+
 
