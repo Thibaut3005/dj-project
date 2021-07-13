@@ -1,4 +1,54 @@
-
+.tour-schedule__title{
+    @include flex;
+    position: relative;
+    flex-direction: column;
+  
+    background-size: 400%;
+    background-position: 50% 30%;
+    background-repeat: no-repeat; 
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    width: 100vw;
+    height: fit-content;
+  }
+  
+  .tour-schedule__title>h1{
+    font-size : 1.5rem; 
+    color : white; 
+    font-weight: $bold ; 
+    font-family: $font;
+  }
+  @media (min-width:480px){
+    .tour-schedule__title>h1{
+      font-size : 1.8rem; 
+      color : white; 
+      font-weight: $bold ; 
+      font-family: $font;
+    }
+  }
+  
+  
+  
+  .tour-schedule__mininav{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size : $medium; 
+    color : white; 
+    font-family: $font;
+  }
+  
+  .tour-schedule__home{
+    font-weight: 500; 
+    padding:1rem;
+  }
+  
+  .tour-schedule__faded{
+    opacity: 0.5;
+    padding: 1rem;
+  }
+  
   
   #tour-schedule {
     @include flex;
