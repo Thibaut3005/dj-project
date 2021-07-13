@@ -1,6 +1,219 @@
 
 
-#Latestrelease .Latestrelease__block{
-    display: flex;
+#Single {
+    
+    
+    background-size: 104vw 226vh;
+    height: 46rem;
+    justify-content: center;
+    .stack__first-block{
+        
+    }
+     .stack__first-block .Subtitle{
+        font-size: 3vw;
+     }
+
+
+.stack__first-block{
+    .playbar{
+        width: 69vw;
+        .playbar__bar{
+            width: 59vw;
+        }
+    }
+}
+
+
+
+
+    }
+
+
+
+
+#nextgig{
+    .stack__second-block__subtitle{
+    font-size: 2vw;
+}
+.stack__second-block__description{
+    font-size: 1vw;
+    margin: 0;
+}
+.stack__second-block__rectangle{
     flex-direction: row;
 }
+.boutton {
+    width: 36vw;
+    margin-right: 3vw;
+}
+
+
+}
+
+#about {
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    margin: 8rem 0;
+    .stack__second-block__image{
+        width: 40vw;
+        grid-column: 1/1;
+        img{
+            width:40vw;
+        }
+    }
+    .stack__second-block__title{
+        grid-column: 2/2;
+        grid-row: 1/1;
+    }
+    .stack__second-block__comment{
+        grid-column: 2/2;
+        font-SIZE: 1vw;
+        display: block;
+        width: 45vw;
+        grid-row: 1/1;
+        margin-top: 6rem;
+    
+        q{
+            font-SIZE: 2vw;
+            margin: 1rem 0;
+            span {
+                font-size: 11vw;
+                top: -3vw;
+                left: -2vw;
+                opacity: 0.35;
+            }
+        }
+    }
+}
+
+#fanbase {
+    padding: 8vw 0;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    .fanbase-galery_item-5, .fanbase-galery_item-3, .fanbase-galery_item-7{
+        display : none;
+    }
+    .fanbase-galery_item-3{
+        overflow: hidden;
+        height: 11vw;
+        transform: rotate( 180deg );
+        img {
+        z-index: 1;
+        position: static;
+        width : 78vw;
+        transform: rotate( 180deg );
+        
+        }
+                       
+    
+    }
+    .fanbase-galery_item-7{
+        overflow: hidden;
+        height: 3vh;
+        img {
+            width: 14vw;
+        }
+
+    } 
+    .fanbase-galery_item-4{
+        
+        img {
+            z-index: 2;
+            position: static;
+            margin-top: 0;
+            width: 14vw;
+        }
+    
+    }
+    .fanbase-galery_item-2{
+      
+        img {
+            z-index: 2;
+            position: static;
+            margin-top: -2vh;
+            width: 14vw;
+        }
+    
+    }
+    .fanbase-galery_item-5{
+        overflow: hidden;
+        height: 3vh;
+        img{
+            width: 14vw;
+           
+        }
+    
+    }
+    .fanbase-galery_item-2{
+        height: 35.5vh;
+        img{
+            width: 14vw;
+           
+        }
+    }
+
+    .fanbase-galery_item-9{
+        margin-left: 12vw;
+
+        img{
+            width: 14vw;
+           
+        }
+    }
+
+    div[class^='fanbase-galery_item'],div[class*='fanbase-galery_item']{
+        
+        img {
+            position:static !important;
+            width: 14vw !important;
+        }
+    
+       
+    }
+    div {
+        
+        img {
+            width: 14vw !important;
+        }
+    }
+    .fanbase__header{
+        grid-column: 2/2;
+        grid-row: 1/1;
+    }
+    .fanbase__body {
+        grid-column: 2/2;
+        grid-row: 1/1;
+        margin-top: 9vw;
+
+    }
+
+}
+#tour-schedule{
+    margin-top: 0 ;
+}
+
+
+
+.fanbase-list__item {
+
+    &:before {
+            content: "";
+            width: 1rem;
+            height: 1rem;
+            background: transparent;
+            border: 2px solid #8121e0;
+            position: absolute;
+            left: 16vw;
+            top: 0px;
+            margin: auto;
+            box-sizing: content-box;
+}
+
+}
+
+
+
+
+
+
+
